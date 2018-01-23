@@ -1,0 +1,2114 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_82a0c9e9dafb4924a2d4c009bf093d5f {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_82a0c9e9dafb4924a2d4c009bf093d5f" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_82a0c9e9dafb4924a2d4c009bf093d5f = L.map(
+                                  'map_82a0c9e9dafb4924a2d4c009bf093d5f',
+                                  {center: [48.7767982,-121.810997],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_c7efdefe7b1741eead2baba0d605af3c = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_82a0c9e9dafb4924a2d4c009bf093d5f);
+        
+    
+            var feature_group_03a4d684a9e24f928519d62b0bd4c8f3 = L.featureGroup(
+                ).addTo(map_82a0c9e9dafb4924a2d4c009bf093d5f);
+        
+    
+
+            var marker_95d70f0549894af7a0fc65df496d2424 = L.marker(
+                [48.7767982,-121.810997],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_7d4ae876b1b542c2b7b9b02e6beeaf20 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_95d70f0549894af7a0fc65df496d2424.setIcon(icon_7d4ae876b1b542c2b7b9b02e6beeaf20);
+            
+    
+            var popup_9b314fc7e67348b289a5215338b9c260 = L.popup({maxWidth: '300'});
+
+            
+                var html_92f46c6c14c8485bb63628bb7fee4377 = $('<div id="html_92f46c6c14c8485bb63628bb7fee4377" style="width: 100.0%; height: 100.0%;">Baker, US-Washington, Historical, 3285</div>')[0];
+                popup_9b314fc7e67348b289a5215338b9c260.setContent(html_92f46c6c14c8485bb63628bb7fee4377);
+            
+
+            marker_95d70f0549894af7a0fc65df496d2424.bindPopup(popup_9b314fc7e67348b289a5215338b9c260);
+
+            
+        
+    
+
+            var marker_3667094845b343678b030150715c23fd = L.marker(
+                [48.1118011,-121.1110001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_bb60857ef8c04ba686841082ddc8d001 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3667094845b343678b030150715c23fd.setIcon(icon_bb60857ef8c04ba686841082ddc8d001);
+            
+    
+            var popup_5e18a5f602334aa680bc3eec6335b054 = L.popup({maxWidth: '300'});
+
+            
+                var html_336354c247bb48db8c6446f5ecd123a0 = $('<div id="html_336354c247bb48db8c6446f5ecd123a0" style="width: 100.0%; height: 100.0%;">Glacier Peak, US-Washington, Tephrochronology, 3213</div>')[0];
+                popup_5e18a5f602334aa680bc3eec6335b054.setContent(html_336354c247bb48db8c6446f5ecd123a0);
+            
+
+            marker_3667094845b343678b030150715c23fd.bindPopup(popup_5e18a5f602334aa680bc3eec6335b054);
+
+            
+        
+    
+
+            var marker_3187feb197674c468f045af5966b6961 = L.marker(
+                [46.8698006,-121.7509995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_e4bf1158b89d4bcb89e104ae0e301886 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3187feb197674c468f045af5966b6961.setIcon(icon_e4bf1158b89d4bcb89e104ae0e301886);
+            
+    
+            var popup_fefb193825e54308a93eb74b5a53a122 = L.popup({maxWidth: '300'});
+
+            
+                var html_72bee75378314aadbb6a50dd0e7d6b08 = $('<div id="html_72bee75378314aadbb6a50dd0e7d6b08" style="width: 100.0%; height: 100.0%;">Rainier, US-Washington, Dendrochronology, 4392</div>')[0];
+                popup_fefb193825e54308a93eb74b5a53a122.setContent(html_72bee75378314aadbb6a50dd0e7d6b08);
+            
+
+            marker_3187feb197674c468f045af5966b6961.bindPopup(popup_fefb193825e54308a93eb74b5a53a122);
+
+            
+        
+    
+
+            var marker_ebfdcb9e85f6419f8e1362c59968fa97 = L.marker(
+                [46.1997986,-122.1809998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_82fb39754cfb4de096f4181cf14a0104 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ebfdcb9e85f6419f8e1362c59968fa97.setIcon(icon_82fb39754cfb4de096f4181cf14a0104);
+            
+    
+            var popup_a9d029475d9646c9b92a7aa7734feeab = L.popup({maxWidth: '300'});
+
+            
+                var html_278ba208981445c882d00107227449f8 = $('<div id="html_278ba208981445c882d00107227449f8" style="width: 100.0%; height: 100.0%;">St. Helens, US-Washington, Historical, 2549</div>')[0];
+                popup_a9d029475d9646c9b92a7aa7734feeab.setContent(html_278ba208981445c882d00107227449f8);
+            
+
+            marker_ebfdcb9e85f6419f8e1362c59968fa97.bindPopup(popup_a9d029475d9646c9b92a7aa7734feeab);
+
+            
+        
+    
+
+            var marker_82779846ccaf490c99f2f22fcddabcf9 = L.marker(
+                [46.2057991,-121.4909973],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_15c2145428644f67be9357cbe2a60479 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_82779846ccaf490c99f2f22fcddabcf9.setIcon(icon_15c2145428644f67be9357cbe2a60479);
+            
+    
+            var popup_9fdcc14dd3d14fd6a94e4ddf156ff313 = L.popup({maxWidth: '300'});
+
+            
+                var html_bd8d5486ca32425d9206514bafe45ad5 = $('<div id="html_bd8d5486ca32425d9206514bafe45ad5" style="width: 100.0%; height: 100.0%;">Adams, US-Washington, Tephrochronology, 3742</div>')[0];
+                popup_9fdcc14dd3d14fd6a94e4ddf156ff313.setContent(html_bd8d5486ca32425d9206514bafe45ad5);
+            
+
+            marker_82779846ccaf490c99f2f22fcddabcf9.bindPopup(popup_9fdcc14dd3d14fd6a94e4ddf156ff313);
+
+            
+        
+    
+
+            var marker_851fad0d154f47fcb78afca9ed1bd38c = L.marker(
+                [45.8797989,-122.0810013],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_0d10592b72704e62a0157cf2009d4ff8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_851fad0d154f47fcb78afca9ed1bd38c.setIcon(icon_0d10592b72704e62a0157cf2009d4ff8);
+            
+    
+            var popup_ddacb765cd4944d4ac8e4a10e0e01649 = L.popup({maxWidth: '300'});
+
+            
+                var html_be36ffa36d344e779a1e7c7ecb46763c = $('<div id="html_be36ffa36d344e779a1e7c7ecb46763c" style="width: 100.0%; height: 100.0%;">West Crater, US-Washington, Radiocarbon, 1329</div>')[0];
+                popup_ddacb765cd4944d4ac8e4a10e0e01649.setContent(html_be36ffa36d344e779a1e7c7ecb46763c);
+            
+
+            marker_851fad0d154f47fcb78afca9ed1bd38c.bindPopup(popup_ddacb765cd4944d4ac8e4a10e0e01649);
+
+            
+        
+    
+
+            var marker_102f7321f5784ed3926e75c2b43c3e24 = L.marker(
+                [45.9297981,-121.8209991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_60e19797cc3a42a3b297a561c75f83e3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_102f7321f5784ed3926e75c2b43c3e24.setIcon(icon_60e19797cc3a42a3b297a561c75f83e3);
+            
+    
+            var popup_97153a2cbde048fda91818210cda8eb5 = L.popup({maxWidth: '300'});
+
+            
+                var html_31dc090f12634cbb9479fa37c58aa5a4 = $('<div id="html_31dc090f12634cbb9479fa37c58aa5a4" style="width: 100.0%; height: 100.0%;">Indian Heaven, US-Washington, Radiocarbon, 1806</div>')[0];
+                popup_97153a2cbde048fda91818210cda8eb5.setContent(html_31dc090f12634cbb9479fa37c58aa5a4);
+            
+
+            marker_102f7321f5784ed3926e75c2b43c3e24.bindPopup(popup_97153a2cbde048fda91818210cda8eb5);
+
+            
+        
+    
+
+            var marker_22cf10d85aed415d8c3dd3cd574c68dc = L.marker(
+                [45.3737984,-121.6910019],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_1944238d3daf42bcaeec6a96d4f6c091 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_22cf10d85aed415d8c3dd3cd574c68dc.setIcon(icon_1944238d3daf42bcaeec6a96d4f6c091);
+            
+    
+            var popup_c4f8fde20e88438d8904b1906f5a2a05 = L.popup({maxWidth: '300'});
+
+            
+                var html_dd485d97979045afb1742009ab3d66ea = $('<div id="html_dd485d97979045afb1742009ab3d66ea" style="width: 100.0%; height: 100.0%;">Hood, US-Oregon, Historical, 3426</div>')[0];
+                popup_c4f8fde20e88438d8904b1906f5a2a05.setContent(html_dd485d97979045afb1742009ab3d66ea);
+            
+
+            marker_22cf10d85aed415d8c3dd3cd574c68dc.bindPopup(popup_c4f8fde20e88438d8904b1906f5a2a05);
+
+            
+        
+    
+
+            var marker_bc507a8be11f483d9ed74aa4ec2ef56b = L.marker(
+                [44.6917992,-121.8010025],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_0d4ce1e882714152a304999cdd5446b1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bc507a8be11f483d9ed74aa4ec2ef56b.setIcon(icon_0d4ce1e882714152a304999cdd5446b1);
+            
+    
+            var popup_e6f2b91381b545148b16d3757bc826b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_ac3cfe13683a486dbfa21397e615d93b = $('<div id="html_ac3cfe13683a486dbfa21397e615d93b" style="width: 100.0%; height: 100.0%;">Jefferson, US-Oregon, Varve Count, 3199</div>')[0];
+                popup_e6f2b91381b545148b16d3757bc826b9.setContent(html_ac3cfe13683a486dbfa21397e615d93b);
+            
+
+            marker_bc507a8be11f483d9ed74aa4ec2ef56b.bindPopup(popup_e6f2b91381b545148b16d3757bc826b9);
+
+            
+        
+    
+
+            var marker_48cfae49fd4945289cd3f74f82a43b2b = L.marker(
+                [44.4197998,-121.7710037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_a6c8017e3f8948caa2b63d917ed95953 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_48cfae49fd4945289cd3f74f82a43b2b.setIcon(icon_a6c8017e3f8948caa2b63d917ed95953);
+            
+    
+            var popup_9e287d4a52074795b9d66eac13ebe821 = L.popup({maxWidth: '300'});
+
+            
+                var html_ac359ddf157b4dfd8cb4afe685cf80be = $('<div id="html_ac359ddf157b4dfd8cb4afe685cf80be" style="width: 100.0%; height: 100.0%;">Blue Lake Crater, US-Oregon, Radiocarbon, 1230</div>')[0];
+                popup_9e287d4a52074795b9d66eac13ebe821.setContent(html_ac359ddf157b4dfd8cb4afe685cf80be);
+            
+
+            marker_48cfae49fd4945289cd3f74f82a43b2b.bindPopup(popup_9e287d4a52074795b9d66eac13ebe821);
+
+            
+        
+    
+
+            var marker_c7df5b1fea1f48a2b388ade4975fc097 = L.marker(
+                [44.3797989,-121.9309998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_a40564a41e7f44079547ffaf91a36651 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c7df5b1fea1f48a2b388ade4975fc097.setIcon(icon_a40564a41e7f44079547ffaf91a36651);
+            
+    
+            var popup_1fd65b573c9347d4bf3fad789860d92f = L.popup({maxWidth: '300'});
+
+            
+                var html_a2676f85780a445f9c290d811e96f071 = $('<div id="html_a2676f85780a445f9c290d811e96f071" style="width: 100.0%; height: 100.0%;">Sand Mountain Field, US-Oregon, Radiocarbon, 1664</div>')[0];
+                popup_1fd65b573c9347d4bf3fad789860d92f.setContent(html_a2676f85780a445f9c290d811e96f071);
+            
+
+            marker_c7df5b1fea1f48a2b388ade4975fc097.bindPopup(popup_1fd65b573c9347d4bf3fad789860d92f);
+
+            
+        
+    
+
+            var marker_72afcf8f0e474552903b2d7a65575d1f = L.marker(
+                [44.3317986,-121.8310013],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_8dc4879bd6f04b91ae4b590b653c8627 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_72afcf8f0e474552903b2d7a65575d1f.setIcon(icon_8dc4879bd6f04b91ae4b590b653c8627);
+            
+    
+            var popup_1da0777da5a7457c8163d41b7bd83f05 = L.popup({maxWidth: '300'});
+
+            
+                var html_bbd6c0bcb1f1422ebb727fe661cb5e94 = $('<div id="html_bbd6c0bcb1f1422ebb727fe661cb5e94" style="width: 100.0%; height: 100.0%;">Washington, US-Oregon, Radiocarbon, 2376</div>')[0];
+                popup_1da0777da5a7457c8163d41b7bd83f05.setContent(html_bbd6c0bcb1f1422ebb727fe661cb5e94);
+            
+
+            marker_72afcf8f0e474552903b2d7a65575d1f.bindPopup(popup_1da0777da5a7457c8163d41b7bd83f05);
+
+            
+        
+    
+
+            var marker_cf66b65e3e4c4f51aa29bae313605e26 = L.marker(
+                [44.2848015,-121.8410034],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_43b638415c634363837fcfded8caa3ce = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cf66b65e3e4c4f51aa29bae313605e26.setIcon(icon_43b638415c634363837fcfded8caa3ce);
+            
+    
+            var popup_92c485c279ca4f568588dbf65b62ca32 = L.popup({maxWidth: '300'});
+
+            
+                var html_c77e903c9eda443db750025ba9b5305f = $('<div id="html_c77e903c9eda443db750025ba9b5305f" style="width: 100.0%; height: 100.0%;">Belknap, US-Oregon, Radiocarbon, 2095</div>')[0];
+                popup_92c485c279ca4f568588dbf65b62ca32.setContent(html_c77e903c9eda443db750025ba9b5305f);
+            
+
+            marker_cf66b65e3e4c4f51aa29bae313605e26.bindPopup(popup_92c485c279ca4f568588dbf65b62ca32);
+
+            
+        
+    
+
+            var marker_07980997066d45fe8617de6712a4c77e = L.marker(
+                [44.1697998,-121.7710037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_cacc6b2f228e4b06b9f7c4556459b76c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_07980997066d45fe8617de6712a4c77e.setIcon(icon_cacc6b2f228e4b06b9f7c4556459b76c);
+            
+    
+            var popup_857c1e76a5524c0e8d1dca502e7f7a82 = L.popup({maxWidth: '300'});
+
+            
+                var html_6d3601a94a0249cbbe6b93a37979eabd = $('<div id="html_6d3601a94a0249cbbe6b93a37979eabd" style="width: 100.0%; height: 100.0%;">North Sister Field, US-Oregon, Radiocarbon, 3074</div>')[0];
+                popup_857c1e76a5524c0e8d1dca502e7f7a82.setContent(html_6d3601a94a0249cbbe6b93a37979eabd);
+            
+
+            marker_07980997066d45fe8617de6712a4c77e.bindPopup(popup_857c1e76a5524c0e8d1dca502e7f7a82);
+
+            
+        
+    
+
+            var marker_1de7e1dfec494803a7e1458fe33d65d5 = L.marker(
+                [44.0998001,-121.7710037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_44e3a5f5a85341e489efde3582bfe784 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1de7e1dfec494803a7e1458fe33d65d5.setIcon(icon_44e3a5f5a85341e489efde3582bfe784);
+            
+    
+            var popup_309334c35f264e9d9cb022471ac7f99c = L.popup({maxWidth: '300'});
+
+            
+                var html_644bc54af02741548177fb1dc91956f6 = $('<div id="html_644bc54af02741548177fb1dc91956f6" style="width: 100.0%; height: 100.0%;">South Sister, US-Oregon, Radiocarbon, 3157</div>')[0];
+                popup_309334c35f264e9d9cb022471ac7f99c.setContent(html_644bc54af02741548177fb1dc91956f6);
+            
+
+            marker_1de7e1dfec494803a7e1458fe33d65d5.bindPopup(popup_309334c35f264e9d9cb022471ac7f99c);
+
+            
+        
+    
+
+            var marker_b4c3262020424651a542e7b2ac34c909 = L.marker(
+                [43.9788017,-121.6809998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_bfa7de0922404f0998c9d09ef06aa318 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b4c3262020424651a542e7b2ac34c909.setIcon(icon_bfa7de0922404f0998c9d09ef06aa318);
+            
+    
+            var popup_1e202dccc5fd40b784d608313e78f7b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_626d9b1f179c4ec3bddbfe32e05baf9a = $('<div id="html_626d9b1f179c4ec3bddbfe32e05baf9a" style="width: 100.0%; height: 100.0%;">Bachelor, US-Oregon, Tephrochronology, 2763</div>')[0];
+                popup_1e202dccc5fd40b784d608313e78f7b9.setContent(html_626d9b1f179c4ec3bddbfe32e05baf9a);
+            
+
+            marker_b4c3262020424651a542e7b2ac34c909.bindPopup(popup_1e202dccc5fd40b784d608313e78f7b9);
+
+            
+        
+    
+
+            var marker_4099ab25702d417a8d84a985f759de89 = L.marker(
+                [43.7218018,-121.2210007],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_76fc23418a1849d6b4bdff8c2a6a6929 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4099ab25702d417a8d84a985f759de89.setIcon(icon_76fc23418a1849d6b4bdff8c2a6a6929);
+            
+    
+            var popup_5808e25b5ff84c839e3c231127281780 = L.popup({maxWidth: '300'});
+
+            
+                var html_282709f2df2d483493d4e16b077fa91a = $('<div id="html_282709f2df2d483493d4e16b077fa91a" style="width: 100.0%; height: 100.0%;">Newberry Volcano, US-Oregon, Radiocarbon, 2434</div>')[0];
+                popup_5808e25b5ff84c839e3c231127281780.setContent(html_282709f2df2d483493d4e16b077fa91a);
+            
+
+            marker_4099ab25702d417a8d84a985f759de89.bindPopup(popup_5808e25b5ff84c839e3c231127281780);
+
+            
+        
+    
+
+            var marker_1e76a88ac607454abeae025573732950 = L.marker(
+                [43.5698013,-121.8209991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_f0657a6bd1854484949b871a6f658784 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1e76a88ac607454abeae025573732950.setIcon(icon_f0657a6bd1854484949b871a6f658784);
+            
+    
+            var popup_0000e3efc21947c2a47a90a49f06b6ad = L.popup({maxWidth: '300'});
+
+            
+                var html_08f62841296c40fd8007a7b101ac84d6 = $('<div id="html_08f62841296c40fd8007a7b101ac84d6" style="width: 100.0%; height: 100.0%;">Davis Lake, US-Oregon, Radiocarbon, 2163</div>')[0];
+                popup_0000e3efc21947c2a47a90a49f06b6ad.setContent(html_08f62841296c40fd8007a7b101ac84d6);
+            
+
+            marker_1e76a88ac607454abeae025573732950.bindPopup(popup_0000e3efc21947c2a47a90a49f06b6ad);
+
+            
+        
+    
+
+            var marker_9a23774b29ba4512a1f28dce8e7be331 = L.marker(
+                [43.5119019,-120.8610001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_5815fdc8027f4e7baa986dd7978d2970 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9a23774b29ba4512a1f28dce8e7be331.setIcon(icon_5815fdc8027f4e7baa986dd7978d2970);
+            
+    
+            var popup_3ea270fb80b5420d8e6ed42e3ac7f455 = L.popup({maxWidth: '300'});
+
+            
+                var html_c66d6a15f7bd4d6bac1f2300a98fd6f4 = $('<div id="html_c66d6a15f7bd4d6bac1f2300a98fd6f4" style="width: 100.0%; height: 100.0%;">Devils Garden, US-Oregon, Holocene?, 1698</div>')[0];
+                popup_3ea270fb80b5420d8e6ed42e3ac7f455.setContent(html_c66d6a15f7bd4d6bac1f2300a98fd6f4);
+            
+
+            marker_9a23774b29ba4512a1f28dce8e7be331.bindPopup(popup_3ea270fb80b5420d8e6ed42e3ac7f455);
+
+            
+        
+    
+
+            var marker_381d00c0712e497bad0df2d74e054c7b = L.marker(
+                [43.240799,-122.1009979],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_226b950d66664f6ebe1426ef58ab09b5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_381d00c0712e497bad0df2d74e054c7b.setIcon(icon_226b950d66664f6ebe1426ef58ab09b5);
+            
+    
+            var popup_57ad46dd84e2431eb8c6149bccf81f3c = L.popup({maxWidth: '300'});
+
+            
+                var html_aca8a235367a4508b059ade75560b808 = $('<div id="html_aca8a235367a4508b059ade75560b808" style="width: 100.0%; height: 100.0%;">Cinnamon Butte, US-Oregon, Holocene?, 1956</div>')[0];
+                popup_57ad46dd84e2431eb8c6149bccf81f3c.setContent(html_aca8a235367a4508b059ade75560b808);
+            
+
+            marker_381d00c0712e497bad0df2d74e054c7b.bindPopup(popup_57ad46dd84e2431eb8c6149bccf81f3c);
+
+            
+        
+    
+
+            var marker_cdcbafd2877742b1b6cd454adf0d1e20 = L.marker(
+                [43.4719009,-120.7509995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_9019c6c6f3ed4a37b23dae052bf08183 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cdcbafd2877742b1b6cd454adf0d1e20.setIcon(icon_9019c6c6f3ed4a37b23dae052bf08183);
+            
+    
+            var popup_549b99ae16784cc199624fd91da60908 = L.popup({maxWidth: '300'});
+
+            
+                var html_8a99546fc9644c31bf44609fa0b15137 = $('<div id="html_8a99546fc9644c31bf44609fa0b15137" style="width: 100.0%; height: 100.0%;">Squaw Ridge Lava Field, US-Oregon, Holocene?, 1711</div>')[0];
+                popup_549b99ae16784cc199624fd91da60908.setContent(html_8a99546fc9644c31bf44609fa0b15137);
+            
+
+            marker_cdcbafd2877742b1b6cd454adf0d1e20.bindPopup(popup_549b99ae16784cc199624fd91da60908);
+
+            
+        
+    
+
+            var marker_2b026f8b727f4ed2abbffdffaa6de92a = L.marker(
+                [43.3609009,-120.6610031],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_76ffdc2a33194b7bb15a56e5b27fc41a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2b026f8b727f4ed2abbffdffaa6de92a.setIcon(icon_76ffdc2a33194b7bb15a56e5b27fc41a);
+            
+    
+            var popup_cc44599d374e48269adfb055bcad2ca1 = L.popup({maxWidth: '300'});
+
+            
+                var html_338f9d5109814abf83ad2a34b78666f6 = $('<div id="html_338f9d5109814abf83ad2a34b78666f6" style="width: 100.0%; height: 100.0%;">Four Craters Lava Field, US-Oregon, Holocene?, 1501</div>')[0];
+                popup_cc44599d374e48269adfb055bcad2ca1.setContent(html_338f9d5109814abf83ad2a34b78666f6);
+            
+
+            marker_2b026f8b727f4ed2abbffdffaa6de92a.bindPopup(popup_cc44599d374e48269adfb055bcad2ca1);
+
+            
+        
+    
+
+            var marker_0a28a8d0e99b43e48e46170a568c1484 = L.marker(
+                [42.9299011,-122.1210022],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_58002acb9d4242169ff645ed5f186c78 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0a28a8d0e99b43e48e46170a568c1484.setIcon(icon_58002acb9d4242169ff645ed5f186c78);
+            
+    
+            var popup_86cda8715c0942fea3b02ecff87ce0cb = L.popup({maxWidth: '300'});
+
+            
+                var html_4905d3c4686147cfa82baf7b35dbf0c6 = $('<div id="html_4905d3c4686147cfa82baf7b35dbf0c6" style="width: 100.0%; height: 100.0%;">Crater Lake, US-Oregon, Radiocarbon, 2487</div>')[0];
+                popup_86cda8715c0942fea3b02ecff87ce0cb.setContent(html_4905d3c4686147cfa82baf7b35dbf0c6);
+            
+
+            marker_0a28a8d0e99b43e48e46170a568c1484.bindPopup(popup_86cda8715c0942fea3b02ecff87ce0cb);
+
+            
+        
+    
+
+            var marker_5eb27881220a4824b7aa43f7318209e8 = L.marker(
+                [44.4299011,-110.6709976],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_4914360751ec4dcc8a0478f0157f449f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5eb27881220a4824b7aa43f7318209e8.setIcon(icon_4914360751ec4dcc8a0478f0157f449f);
+            
+    
+            var popup_9c8ddde8c9834fff80e949e28c8f5595 = L.popup({maxWidth: '300'});
+
+            
+                var html_948f0d9b51564a43a944a55fbdd45eca = $('<div id="html_948f0d9b51564a43a944a55fbdd45eca" style="width: 100.0%; height: 100.0%;">Yellowstone, US-Wyoming, Tephrochronology, 2805</div>')[0];
+                popup_9c8ddde8c9834fff80e949e28c8f5595.setContent(html_948f0d9b51564a43a944a55fbdd45eca);
+            
+
+            marker_5eb27881220a4824b7aa43f7318209e8.bindPopup(popup_9c8ddde8c9834fff80e949e28c8f5595);
+
+            
+        
+    
+
+            var marker_1efa82cdfae14952a8887be5f8c1647e = L.marker(
+                [43.0998993,-118.7509995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_bc900069f7a849bea6f41bd30f86cf0d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1efa82cdfae14952a8887be5f8c1647e.setIcon(icon_bc900069f7a849bea6f41bd30f86cf0d);
+            
+    
+            var popup_0b1ee5c55c4442a4a5f9ed45c8564f52 = L.popup({maxWidth: '300'});
+
+            
+                var html_263836f7c67e469b970812be90ed25f7 = $('<div id="html_263836f7c67e469b970812be90ed25f7" style="width: 100.0%; height: 100.0%;">Diamond Craters, US-Oregon, Holocene?, 1435</div>')[0];
+                popup_0b1ee5c55c4442a4a5f9ed45c8564f52.setContent(html_263836f7c67e469b970812be90ed25f7);
+            
+
+            marker_1efa82cdfae14952a8887be5f8c1647e.bindPopup(popup_0b1ee5c55c4442a4a5f9ed45c8564f52);
+
+            
+        
+    
+
+            var marker_e26b289a16c044ab91eba4349c964e2a = L.marker(
+                [43.1498985,-117.4710007],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_0692fbd1496a4ef8915a8f9349141812 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e26b289a16c044ab91eba4349c964e2a.setIcon(icon_0692fbd1496a4ef8915a8f9349141812);
+            
+    
+            var popup_f86aaa5be0e64a9fad213041b17ede81 = L.popup({maxWidth: '300'});
+
+            
+                var html_9d3606839499429f92208fcc59450f8c = $('<div id="html_9d3606839499429f92208fcc59450f8c" style="width: 100.0%; height: 100.0%;">Jordan Craters, US-Oregon, Radiocarbon, 1473</div>')[0];
+                popup_f86aaa5be0e64a9fad213041b17ede81.setContent(html_9d3606839499429f92208fcc59450f8c);
+            
+
+            marker_e26b289a16c044ab91eba4349c964e2a.bindPopup(popup_f86aaa5be0e64a9fad213041b17ede81);
+
+            
+        
+    
+
+            var marker_3bf44450938c4d02b7938919f4203364 = L.marker(
+                [42.9999008,-117.8010025],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_0106aa60c8504e94a3dae965d72b3261 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3bf44450938c4d02b7938919f4203364.setIcon(icon_0106aa60c8504e94a3dae965d72b3261);
+            
+    
+            var popup_ced95b190eb64f65b7e3f8f24e8054c2 = L.popup({maxWidth: '300'});
+
+            
+                var html_b4d1c6cd71564ec0affbc0286a411f7b = $('<div id="html_b4d1c6cd71564ec0affbc0286a411f7b" style="width: 100.0%; height: 100.0%;">Saddle Butte, US-Oregon, Holocene?, 1700</div>')[0];
+                popup_ced95b190eb64f65b7e3f8f24e8054c2.setContent(html_b4d1c6cd71564ec0affbc0286a411f7b);
+            
+
+            marker_3bf44450938c4d02b7938919f4203364.bindPopup(popup_ced95b190eb64f65b7e3f8f24e8054c2);
+
+            
+        
+    
+
+            var marker_2110c35224864f48b4b18e9ce0f604c0 = L.marker(
+                [43.419899,-113.5009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_94ae75764d944d19919ede22ea4e9e6c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2110c35224864f48b4b18e9ce0f604c0.setIcon(icon_94ae75764d944d19919ede22ea4e9e6c);
+            
+    
+            var popup_0f56f2cdcbf04c11bbf7b360b103194e = L.popup({maxWidth: '300'});
+
+            
+                var html_95038c23d78748258eba177dce33674d = $('<div id="html_95038c23d78748258eba177dce33674d" style="width: 100.0%; height: 100.0%;">Craters of the Moon, US-Idaho, Radiocarbon, 2005</div>')[0];
+                popup_0f56f2cdcbf04c11bbf7b360b103194e.setContent(html_95038c23d78748258eba177dce33674d);
+            
+
+            marker_2110c35224864f48b4b18e9ce0f604c0.bindPopup(popup_0f56f2cdcbf04c11bbf7b360b103194e);
+
+            
+        
+    
+
+            var marker_e25264649d7d4a1087e29a78be31e97a = L.marker(
+                [43.4999008,-112.4509964],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_1f9788ce6f4f4eb3a684ccd8e304cdb6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e25264649d7d4a1087e29a78be31e97a.setIcon(icon_1f9788ce6f4f4eb3a684ccd8e304cdb6);
+            
+    
+            var popup_1d265fb975bf43369bb4db4116a2a417 = L.popup({maxWidth: '300'});
+
+            
+                var html_38c821bf57a947a9b6f1ff343cfc27c3 = $('<div id="html_38c821bf57a947a9b6f1ff343cfc27c3" style="width: 100.0%; height: 100.0%;">Hell&#39;s Half Acre, US-Idaho, Radiocarbon, 1631</div>')[0];
+                popup_1d265fb975bf43369bb4db4116a2a417.setContent(html_38c821bf57a947a9b6f1ff343cfc27c3);
+            
+
+            marker_e25264649d7d4a1087e29a78be31e97a.bindPopup(popup_1d265fb975bf43369bb4db4116a2a417);
+
+            
+        
+    
+
+            var marker_07432ce6e6344980a4e890cff5cb0cbb = L.marker(
+                [43.1799011,-114.3509979],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_dd64e12bf407426687fc106da3a41278 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_07432ce6e6344980a4e890cff5cb0cbb.setIcon(icon_dd64e12bf407426687fc106da3a41278);
+            
+    
+            var popup_0eb6b8c0d04f427e9828e93225e16705 = L.popup({maxWidth: '300'});
+
+            
+                var html_6b08a43de4b046c08fb9efc62751f0eb = $('<div id="html_6b08a43de4b046c08fb9efc62751f0eb" style="width: 100.0%; height: 100.0%;">Shoshone Lava Field, US-Idaho, Holocene, 1478</div>')[0];
+                popup_0eb6b8c0d04f427e9828e93225e16705.setContent(html_6b08a43de4b046c08fb9efc62751f0eb);
+            
+
+            marker_07432ce6e6344980a4e890cff5cb0cbb.bindPopup(popup_0eb6b8c0d04f427e9828e93225e16705);
+
+            
+        
+    
+
+            var marker_17d8acb15fcc49469bf273f7e3c0bb30 = L.marker(
+                [42.6058998,-117.5810013],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_0d7a19c2b6a249d4b38e5153b8aa8e3d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_17d8acb15fcc49469bf273f7e3c0bb30.setIcon(icon_0d7a19c2b6a249d4b38e5153b8aa8e3d);
+            
+    
+            var popup_0712e869a6f74abe95a36ee2f83c1355 = L.popup({maxWidth: '300'});
+
+            
+                var html_b3126ae7df3b4c73ab9efe71feb4d34a = $('<div id="html_b3126ae7df3b4c73ab9efe71feb4d34a" style="width: 100.0%; height: 100.0%;">Jackies Butte, US-Oregon, Holocene?, 1418</div>')[0];
+                popup_0712e869a6f74abe95a36ee2f83c1355.setContent(html_b3126ae7df3b4c73ab9efe71feb4d34a);
+            
+
+            marker_17d8acb15fcc49469bf273f7e3c0bb30.bindPopup(popup_0712e869a6f74abe95a36ee2f83c1355);
+
+            
+        
+    
+
+            var marker_662cce39a7c94546acd61a35c043402d = L.marker(
+                [41.5798988,-121.5709991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_0fd951e0f88d46dcb5211636abb534bb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_662cce39a7c94546acd61a35c043402d.setIcon(icon_0fd951e0f88d46dcb5211636abb534bb);
+            
+    
+            var popup_241fde1fde2d4c9eb317a3f68230bf14 = L.popup({maxWidth: '300'});
+
+            
+                var html_92bb936690ec4315ab363d9253d7669d = $('<div id="html_92bb936690ec4315ab363d9253d7669d" style="width: 100.0%; height: 100.0%;">Medicine Lake, US-California, Radiocarbon, 2412</div>')[0];
+                popup_241fde1fde2d4c9eb317a3f68230bf14.setContent(html_92bb936690ec4315ab363d9253d7669d);
+            
+
+            marker_662cce39a7c94546acd61a35c043402d.bindPopup(popup_241fde1fde2d4c9eb317a3f68230bf14);
+
+            
+        
+    
+
+            var marker_fa8be70b762442d083991db30ec84960 = L.marker(
+                [42.8799019,-113.2210007],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_ceba8ce981bd4c17a319dc583a106be2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fa8be70b762442d083991db30ec84960.setIcon(icon_ceba8ce981bd4c17a319dc583a106be2);
+            
+    
+            var popup_6f3788eb0dd545f8bfa5e4c76c64e6a3 = L.popup({maxWidth: '300'});
+
+            
+                var html_92e053d5ce5c4ea6b72bea74144bf3cb = $('<div id="html_92e053d5ce5c4ea6b72bea74144bf3cb" style="width: 100.0%; height: 100.0%;">Wapi Lava Field, US-Idaho, Radiocarbon, 1604</div>')[0];
+                popup_6f3788eb0dd545f8bfa5e4c76c64e6a3.setContent(html_92e053d5ce5c4ea6b72bea74144bf3cb);
+            
+
+            marker_fa8be70b762442d083991db30ec84960.bindPopup(popup_6f3788eb0dd545f8bfa5e4c76c64e6a3);
+
+            
+        
+    
+
+            var marker_cb1f03f8bac140019a722d3a37940e64 = L.marker(
+                [41.419899,-122.2009964],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_949a74205dfe4ffb9610eac82d43e5ca = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cb1f03f8bac140019a722d3a37940e64.setIcon(icon_949a74205dfe4ffb9610eac82d43e5ca);
+            
+    
+            var popup_d893042b9a944c54a57692044e961fe7 = L.popup({maxWidth: '300'});
+
+            
+                var html_cc3fc344f2bc473abf9036dfe8bc6e1f = $('<div id="html_cc3fc344f2bc473abf9036dfe8bc6e1f" style="width: 100.0%; height: 100.0%;">Shasta, US-California, Historical, 4317</div>')[0];
+                popup_d893042b9a944c54a57692044e961fe7.setContent(html_cc3fc344f2bc473abf9036dfe8bc6e1f);
+            
+
+            marker_cb1f03f8bac140019a722d3a37940e64.bindPopup(popup_d893042b9a944c54a57692044e961fe7);
+
+            
+        
+    
+
+            var marker_221023486eb04189a19d9c964f9f8063 = L.marker(
+                [41.1778984,-121.4410019],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_e25f32d033cb4394816c718b2234aeaa = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_221023486eb04189a19d9c964f9f8063.setIcon(icon_e25f32d033cb4394816c718b2234aeaa);
+            
+    
+            var popup_4359e9ac5080448382f56f33a691f6e5 = L.popup({maxWidth: '300'});
+
+            
+                var html_08f4a068e51042bf9f69303ebfddfa69 = $('<div id="html_08f4a068e51042bf9f69303ebfddfa69" style="width: 100.0%; height: 100.0%;">Brushy Butte, US-California, Holocene?, 1174</div>')[0];
+                popup_4359e9ac5080448382f56f33a691f6e5.setContent(html_08f4a068e51042bf9f69303ebfddfa69);
+            
+
+            marker_221023486eb04189a19d9c964f9f8063.bindPopup(popup_4359e9ac5080448382f56f33a691f6e5);
+
+            
+        
+    
+
+            var marker_0b0f785bc9c14693aab90c82c9e12f24 = L.marker(
+                [40.9548988,-121.3610001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_c0e2d423be3641ea88fa84b1a89cc05a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0b0f785bc9c14693aab90c82c9e12f24.setIcon(icon_c0e2d423be3641ea88fa84b1a89cc05a);
+            
+    
+            var popup_64c4d6f9d2794887b7464481db3a50bd = L.popup({maxWidth: '300'});
+
+            
+                var html_32ad81d3e8184a72b0a130e0da5c10c0 = $('<div id="html_32ad81d3e8184a72b0a130e0da5c10c0" style="width: 100.0%; height: 100.0%;">Big Cave, US-California, Holocene?, 1259</div>')[0];
+                popup_64c4d6f9d2794887b7464481db3a50bd.setContent(html_32ad81d3e8184a72b0a130e0da5c10c0);
+            
+
+            marker_0b0f785bc9c14693aab90c82c9e12f24.bindPopup(popup_64c4d6f9d2794887b7464481db3a50bd);
+
+            
+        
+    
+
+            var marker_eda015ed40ed4560abb01fd16d99fb69 = L.marker(
+                [40.7798996,-121.6009979],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_d85a7e3658f7459cb7380b4a1835ff2b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eda015ed40ed4560abb01fd16d99fb69.setIcon(icon_d85a7e3658f7459cb7380b4a1835ff2b);
+            
+    
+            var popup_e338865fddd345d5bac0baf38baeb424 = L.popup({maxWidth: '300'});
+
+            
+                var html_47e4ef0322304391a50726c0c651019b = $('<div id="html_47e4ef0322304391a50726c0c651019b" style="width: 100.0%; height: 100.0%;">Twin Buttes, US-California, Holocene?, 1631</div>')[0];
+                popup_e338865fddd345d5bac0baf38baeb424.setContent(html_47e4ef0322304391a50726c0c651019b);
+            
+
+            marker_eda015ed40ed4560abb01fd16d99fb69.bindPopup(popup_e338865fddd345d5bac0baf38baeb424);
+
+            
+        
+    
+
+            var marker_5b97c296352d454fa072ceff48ca65c8 = L.marker(
+                [40.6799011,-121.5510025],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_982743d9915842dd97a2f8784440bb88 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5b97c296352d454fa072ceff48ca65c8.setIcon(icon_982743d9915842dd97a2f8784440bb88);
+            
+    
+            var popup_8d96cdcde36f40acb6ab6abc2f342895 = L.popup({maxWidth: '300'});
+
+            
+                var html_e8e9270e7dea4cf28269ce197d8ba968 = $('<div id="html_e8e9270e7dea4cf28269ce197d8ba968" style="width: 100.0%; height: 100.0%;">Tumble Buttes, US-California, Holocene?, 2191</div>')[0];
+                popup_8d96cdcde36f40acb6ab6abc2f342895.setContent(html_e8e9270e7dea4cf28269ce197d8ba968);
+            
+
+            marker_5b97c296352d454fa072ceff48ca65c8.bindPopup(popup_8d96cdcde36f40acb6ab6abc2f342895);
+
+            
+        
+    
+
+            var marker_357dd58510554b1a9af6a7735f423e85 = L.marker(
+                [40.6299019,-120.8310013],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_f498853ea1a344aaae0c46d9faac8746 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_357dd58510554b1a9af6a7735f423e85.setIcon(icon_f498853ea1a344aaae0c46d9faac8746);
+            
+    
+            var popup_fe6adfa1e0ba413aa177770f8f7a4dc7 = L.popup({maxWidth: '300'});
+
+            
+                var html_5586573b7c4f4a78a598f4b0d90ec2eb = $('<div id="html_5586573b7c4f4a78a598f4b0d90ec2eb" style="width: 100.0%; height: 100.0%;">Eagle Lake Field, US-California, Holocene?, 1652</div>')[0];
+                popup_fe6adfa1e0ba413aa177770f8f7a4dc7.setContent(html_5586573b7c4f4a78a598f4b0d90ec2eb);
+            
+
+            marker_357dd58510554b1a9af6a7735f423e85.bindPopup(popup_fe6adfa1e0ba413aa177770f8f7a4dc7);
+
+            
+        
+    
+
+            var marker_9ab2bbff09af47d7835dda949d716b50 = L.marker(
+                [40.4919014,-121.5009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_aa11eac17b754f7382e54b034a71f9f5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9ab2bbff09af47d7835dda949d716b50.setIcon(icon_aa11eac17b754f7382e54b034a71f9f5);
+            
+    
+            var popup_6a05da3e8de84bea85a704c97818f0a4 = L.popup({maxWidth: '300'});
+
+            
+                var html_9eac6bd1028b453ea1d8e8ee0de5146a = $('<div id="html_9eac6bd1028b453ea1d8e8ee0de5146a" style="width: 100.0%; height: 100.0%;">Lassen Volc Center, US-California, Historical, 3187</div>')[0];
+                popup_6a05da3e8de84bea85a704c97818f0a4.setContent(html_9eac6bd1028b453ea1d8e8ee0de5146a);
+            
+
+            marker_9ab2bbff09af47d7835dda949d716b50.bindPopup(popup_6a05da3e8de84bea85a704c97818f0a4);
+
+            
+        
+    
+
+            var marker_08bef018905148fe8eb2efa9adfe1b57 = L.marker(
+                [38.9698982,-122.7710037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_0797fec1058c4909a76c4518f9c03978 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_08bef018905148fe8eb2efa9adfe1b57.setIcon(icon_0797fec1058c4909a76c4518f9c03978);
+            
+    
+            var popup_c9fab615326c423fb1d7cd42fa888741 = L.popup({maxWidth: '300'});
+
+            
+                var html_f6ce67a2a746412f84f0cb88dcbad63d = $('<div id="html_f6ce67a2a746412f84f0cb88dcbad63d" style="width: 100.0%; height: 100.0%;">Clear Lake, US-California, Holocene, 1439</div>')[0];
+                popup_c9fab615326c423fb1d7cd42fa888741.setContent(html_f6ce67a2a746412f84f0cb88dcbad63d);
+            
+
+            marker_08bef018905148fe8eb2efa9adfe1b57.bindPopup(popup_c9fab615326c423fb1d7cd42fa888741);
+
+            
+        
+    
+
+            var marker_6a24a70540204493aad7d23035a9b2a2 = L.marker(
+                [39.3749008,-119.7210007],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_41d0ad34b5ab4f6ab91c554d1ea542ad = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6a24a70540204493aad7d23035a9b2a2.setIcon(icon_41d0ad34b5ab4f6ab91c554d1ea542ad);
+            
+    
+            var popup_0246478ab40142abbdd38a4801049cf2 = L.popup({maxWidth: '300'});
+
+            
+                var html_2327eb21848842efbf988ebbb3529d0b = $('<div id="html_2327eb21848842efbf988ebbb3529d0b" style="width: 100.0%; height: 100.0%;">Steamboat Springs, US-Nevada, Pleistocene-Fumarolic, 1415</div>')[0];
+                popup_0246478ab40142abbdd38a4801049cf2.setContent(html_2327eb21848842efbf988ebbb3529d0b);
+            
+
+            marker_6a24a70540204493aad7d23035a9b2a2.bindPopup(popup_0246478ab40142abbdd38a4801049cf2);
+
+            
+        
+    
+
+            var marker_d4649a3026ed45578f02cc93f80a8f25 = L.marker(
+                [39.6500015,-107.0309982],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_ece2055dc46a41bc943d25608a92712a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d4649a3026ed45578f02cc93f80a8f25.setIcon(icon_ece2055dc46a41bc943d25608a92712a);
+            
+    
+            var popup_d9081b6a33094b53a7d736e5135f897e = L.popup({maxWidth: '300'});
+
+            
+                var html_b78b72d1972f4770bd6085580b8e5fc3 = $('<div id="html_b78b72d1972f4770bd6085580b8e5fc3" style="width: 100.0%; height: 100.0%;">Dotsero, US-Colorado, Radiocarbon, 2230</div>')[0];
+                popup_d9081b6a33094b53a7d736e5135f897e.setContent(html_b78b72d1972f4770bd6085580b8e5fc3);
+            
+
+            marker_d4649a3026ed45578f02cc93f80a8f25.bindPopup(popup_d9081b6a33094b53a7d736e5135f897e);
+
+            
+        
+    
+
+            var marker_a718fc38f59242c09ed37b3f86ad7d66 = L.marker(
+                [37.9999008,-119.0309982],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_328f3169cc34446cbe0763311f6950a3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a718fc38f59242c09ed37b3f86ad7d66.setIcon(icon_328f3169cc34446cbe0763311f6950a3);
+            
+    
+            var popup_5b65b08f0f1e4e25b6f0c37dbfbf94e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_be230d976d654457abdcd3bc4137ce28 = $('<div id="html_be230d976d654457abdcd3bc4137ce28" style="width: 100.0%; height: 100.0%;">Mono Lake Volc Field, US-California, Tephrochronology, 2121</div>')[0];
+                popup_5b65b08f0f1e4e25b6f0c37dbfbf94e6.setContent(html_be230d976d654457abdcd3bc4137ce28);
+            
+
+            marker_a718fc38f59242c09ed37b3f86ad7d66.bindPopup(popup_5b65b08f0f1e4e25b6f0c37dbfbf94e6);
+
+            
+        
+    
+
+            var marker_8459cc9a2d8e4d1c9091a592599ac81f = L.marker(
+                [38.9700012,-112.5009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_95322405c71545dfbbf7c667b8d7bdcc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8459cc9a2d8e4d1c9091a592599ac81f.setIcon(icon_95322405c71545dfbbf7c667b8d7bdcc);
+            
+    
+            var popup_41f89389102e43d08053b4705127589b = L.popup({maxWidth: '300'});
+
+            
+                var html_aca21f11dc714c1bb95bef2767c751bc = $('<div id="html_aca21f11dc714c1bb95bef2767c751bc" style="width: 100.0%; height: 100.0%;">Black Rock Desert, US-Utah, Radiocarbon, 1800</div>')[0];
+                popup_41f89389102e43d08053b4705127589b.setContent(html_aca21f11dc714c1bb95bef2767c751bc);
+            
+
+            marker_8459cc9a2d8e4d1c9091a592599ac81f.bindPopup(popup_41f89389102e43d08053b4705127589b);
+
+            
+        
+    
+
+            var marker_2d4c5db1354345b087961e5757fc62b4 = L.marker(
+                [37.8799019,-119.0009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_939c8e5877b84e05a52c66bb72799efe = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2d4c5db1354345b087961e5757fc62b4.setIcon(icon_939c8e5877b84e05a52c66bb72799efe);
+            
+    
+            var popup_d9ed29eb4fff41679932e059a3e00e9a = L.popup({maxWidth: '300'});
+
+            
+                var html_b0c085bfc86246bea2a4b39c05996467 = $('<div id="html_b0c085bfc86246bea2a4b39c05996467" style="width: 100.0%; height: 100.0%;">Mono Craters, US-California, Radiocarbon, 2796</div>')[0];
+                popup_d9ed29eb4fff41679932e059a3e00e9a.setContent(html_b0c085bfc86246bea2a4b39c05996467);
+            
+
+            marker_2d4c5db1354345b087961e5757fc62b4.bindPopup(popup_d9ed29eb4fff41679932e059a3e00e9a);
+
+            
+        
+    
+
+            var marker_d368684a63f34af19c9781a91e53f27e = L.marker(
+                [37.6918983,-119.0210037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_3aa7d140baf347348a239da2801cc1c9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d368684a63f34af19c9781a91e53f27e.setIcon(icon_3aa7d140baf347348a239da2801cc1c9);
+            
+    
+            var popup_161ac07114864c358ed9f5d9e81da668 = L.popup({maxWidth: '300'});
+
+            
+                var html_5672b46f1a7e4b81a6def8dd32c6d781 = $('<div id="html_5672b46f1a7e4b81a6def8dd32c6d781" style="width: 100.0%; height: 100.0%;">Inyo Craters, US-California, Radiocarbon, 2629</div>')[0];
+                popup_161ac07114864c358ed9f5d9e81da668.setContent(html_5672b46f1a7e4b81a6def8dd32c6d781);
+            
+
+            marker_d368684a63f34af19c9781a91e53f27e.bindPopup(popup_161ac07114864c358ed9f5d9e81da668);
+
+            
+        
+    
+
+            var marker_f07c1c5e8f654d359e4351e52b968dee = L.marker(
+                [37.6999016,-118.8710022],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_53ebbe2f8b2049a48f0747c0bfd2dc57 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f07c1c5e8f654d359e4351e52b968dee.setIcon(icon_53ebbe2f8b2049a48f0747c0bfd2dc57);
+            
+    
+            var popup_f02396a506f24c9e9440e0580be8315f = L.popup({maxWidth: '300'});
+
+            
+                var html_432141dd1d414c4ea2f469e2a8278d8f = $('<div id="html_432141dd1d414c4ea2f469e2a8278d8f" style="width: 100.0%; height: 100.0%;">Long Valley, US-California, Pleistocene-Fumarolic, 3390</div>')[0];
+                popup_f02396a506f24c9e9440e0580be8315f.setContent(html_432141dd1d414c4ea2f469e2a8278d8f);
+            
+
+            marker_f07c1c5e8f654d359e4351e52b968dee.bindPopup(popup_f02396a506f24c9e9440e0580be8315f);
+
+            
+        
+    
+
+            var marker_a6f3edcfd45f497995966659b1bd1dd2 = L.marker(
+                [37.5798988,-119.0510025],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_23a8747499b143e88c909f649640202e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a6f3edcfd45f497995966659b1bd1dd2.setIcon(icon_23a8747499b143e88c909f649640202e);
+            
+    
+            var popup_650fa89b27874e82ae0c5cddc7d171bd = L.popup({maxWidth: '300'});
+
+            
+                var html_6337955a2c85498a8f2249db0107e5e2 = $('<div id="html_6337955a2c85498a8f2249db0107e5e2" style="width: 100.0%; height: 100.0%;">Red Cones, US-California, Radiocarbon, 2748</div>')[0];
+                popup_650fa89b27874e82ae0c5cddc7d171bd.setContent(html_6337955a2c85498a8f2249db0107e5e2);
+            
+
+            marker_a6f3edcfd45f497995966659b1bd1dd2.bindPopup(popup_650fa89b27874e82ae0c5cddc7d171bd);
+
+            
+        
+    
+
+            var marker_48fcb2335217463e89ad378efd865e0f = L.marker(
+                [37.0199013,-117.4509964],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_ba97c4ef7c604421b47e7349d6d70669 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_48fcb2335217463e89ad378efd865e0f.setIcon(icon_ba97c4ef7c604421b47e7349d6d70669);
+            
+    
+            var popup_0b8b3c0361db460d9398d2444e5132c1 = L.popup({maxWidth: '300'});
+
+            
+                var html_5d5e9734792444f69bf3ffe7b084e3b5 = $('<div id="html_5d5e9734792444f69bf3ffe7b084e3b5" style="width: 100.0%; height: 100.0%;">Ubehebe Craters, US-California, Anthropology, 752</div>')[0];
+                popup_0b8b3c0361db460d9398d2444e5132c1.setContent(html_5d5e9734792444f69bf3ffe7b084e3b5);
+            
+
+            marker_48fcb2335217463e89ad378efd865e0f.bindPopup(popup_0b8b3c0361db460d9398d2444e5132c1);
+
+            
+        
+    
+
+            var marker_6f1e85040100476498afeb2b513d8e6e = L.marker(
+                [37.5800018,-112.6709976],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_dc22372b38874357b5545e80b8e8f71f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6f1e85040100476498afeb2b513d8e6e.setIcon(icon_dc22372b38874357b5545e80b8e8f71f);
+            
+    
+            var popup_3e4d9095100b444987b493ff0ed9ba3c = L.popup({maxWidth: '300'});
+
+            
+                var html_ffdc2bd91c764e329b0d85060eb65726 = $('<div id="html_ffdc2bd91c764e329b0d85060eb65726" style="width: 100.0%; height: 100.0%;">Markagunt Plateau, US-Utah, Dendrochronology, 2840</div>')[0];
+                popup_3e4d9095100b444987b493ff0ed9ba3c.setContent(html_ffdc2bd91c764e329b0d85060eb65726);
+            
+
+            marker_6f1e85040100476498afeb2b513d8e6e.bindPopup(popup_3e4d9095100b444987b493ff0ed9ba3c);
+
+            
+        
+    
+
+            var marker_00fcff0139dc4400b1cce9f1a1e622f4 = L.marker(
+                [37.257,-113.6210022],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_08e853d7c8304a35961194bd0f77b943 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_00fcff0139dc4400b1cce9f1a1e622f4.setIcon(icon_08e853d7c8304a35961194bd0f77b943);
+            
+    
+            var popup_1ae2073ce08543a2bc72d9b9fcaf7937 = L.popup({maxWidth: '300'});
+
+            
+                var html_dd19c591528c4658a08c21aba61f46c5 = $('<div id="html_dd19c591528c4658a08c21aba61f46c5" style="width: 100.0%; height: 100.0%;">Santa Clara, US-Utah, Holocene?, 1465</div>')[0];
+                popup_1ae2073ce08543a2bc72d9b9fcaf7937.setContent(html_dd19c591528c4658a08c21aba61f46c5);
+            
+
+            marker_00fcff0139dc4400b1cce9f1a1e622f4.bindPopup(popup_1ae2073ce08543a2bc72d9b9fcaf7937);
+
+            
+        
+    
+
+            var marker_cf20b17c177e42619e5164d17b4acb86 = L.marker(
+                [37.3279991,-112.401001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_e2304e40ce6b49a7a59bcc6c30066a0f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cf20b17c177e42619e5164d17b4acb86.setIcon(icon_e2304e40ce6b49a7a59bcc6c30066a0f);
+            
+    
+            var popup_c7f8d627ae3f4901a6606f3b2581cd6c = L.popup({maxWidth: '300'});
+
+            
+                var html_87213deccdc64f5bbdbff9770fe7eabc = $('<div id="html_87213deccdc64f5bbdbff9770fe7eabc" style="width: 100.0%; height: 100.0%;">Bald Knoll, US-Utah, Holocene, 2135</div>')[0];
+                popup_c7f8d627ae3f4901a6606f3b2581cd6c.setContent(html_87213deccdc64f5bbdbff9770fe7eabc);
+            
+
+            marker_cf20b17c177e42619e5164d17b4acb86.bindPopup(popup_c7f8d627ae3f4901a6606f3b2581cd6c);
+
+            
+        
+    
+
+            var marker_f52db9edd3f04f7b91f522c9867594f9 = L.marker(
+                [36.3578987,-118.3209991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_27cef6b7b3d64d29bd119f501c8151e2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f52db9edd3f04f7b91f522c9867594f9.setIcon(icon_27cef6b7b3d64d29bd119f501c8151e2);
+            
+    
+            var popup_63340ebacc4e4a02a178b11fe308a02b = L.popup({maxWidth: '300'});
+
+            
+                var html_269a3f3f7ded4011863f4279c115d571 = $('<div id="html_269a3f3f7ded4011863f4279c115d571" style="width: 100.0%; height: 100.0%;">Golden Trout Creek, US-California, Tephrochronology, 2886</div>')[0];
+                popup_63340ebacc4e4a02a178b11fe308a02b.setContent(html_269a3f3f7ded4011863f4279c115d571);
+            
+
+            marker_f52db9edd3f04f7b91f522c9867594f9.bindPopup(popup_63340ebacc4e4a02a178b11fe308a02b);
+
+            
+        
+    
+
+            var marker_029eb80581ec4f23b0521d81c9721c3e = L.marker(
+                [36.0298996,-117.8209991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_08c955df49864a2a95b81a9cb35fc980 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_029eb80581ec4f23b0521d81c9721c3e.setIcon(icon_08c955df49864a2a95b81a9cb35fc980);
+            
+    
+            var popup_3b9560bec3d445748f55566a3272cec5 = L.popup({maxWidth: '300'});
+
+            
+                var html_ba50fd3573d54d8788b66e3f4ef5bda0 = $('<div id="html_ba50fd3573d54d8788b66e3f4ef5bda0" style="width: 100.0%; height: 100.0%;">Coso Volc Field, US-California, Holocene?, 2400</div>')[0];
+                popup_3b9560bec3d445748f55566a3272cec5.setContent(html_ba50fd3573d54d8788b66e3f4ef5bda0);
+            
+
+            marker_029eb80581ec4f23b0521d81c9721c3e.bindPopup(popup_3b9560bec3d445748f55566a3272cec5);
+
+            
+        
+    
+
+            var marker_1d47c620e4f446a2ad20f93a798b223c = L.marker(
+                [36.3800011,-113.1309967],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_b98ab9ca869246bd9f36f072b7787963 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1d47c620e4f446a2ad20f93a798b223c.setIcon(icon_b98ab9ca869246bd9f36f072b7787963);
+            
+    
+            var popup_baadf42329554ae2a8e1635c8cfc11a6 = L.popup({maxWidth: '300'});
+
+            
+                var html_93f84d1b602c474e91fe406c59c48f06 = $('<div id="html_93f84d1b602c474e91fe406c59c48f06" style="width: 100.0%; height: 100.0%;">Uinkaret Field, US-Arizona, Anthropology, 1555</div>')[0];
+                popup_baadf42329554ae2a8e1635c8cfc11a6.setContent(html_93f84d1b602c474e91fe406c59c48f06);
+            
+
+            marker_1d47c620e4f446a2ad20f93a798b223c.bindPopup(popup_baadf42329554ae2a8e1635c8cfc11a6);
+
+            
+        
+    
+
+            var marker_7ae738326fb94a3a8c18c272e3b023a5 = L.marker(
+                [34.75,-116.6210022],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_b712a91479374d6a9f50f4ce1809d7ba = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7ae738326fb94a3a8c18c272e3b023a5.setIcon(icon_b712a91479374d6a9f50f4ce1809d7ba);
+            
+    
+            var popup_09d2205be7ea4d43aaa1f945501070b4 = L.popup({maxWidth: '300'});
+
+            
+                var html_6d84752743d7431c9e9a9fb00164ab2f = $('<div id="html_6d84752743d7431c9e9a9fb00164ab2f" style="width: 100.0%; height: 100.0%;">Lavic Lake, US-California, Holocene?, 1495</div>')[0];
+                popup_09d2205be7ea4d43aaa1f945501070b4.setContent(html_6d84752743d7431c9e9a9fb00164ab2f);
+            
+
+            marker_7ae738326fb94a3a8c18c272e3b023a5.bindPopup(popup_09d2205be7ea4d43aaa1f945501070b4);
+
+            
+        
+    
+
+            var marker_9e25fcab0448402281852f800d51a655 = L.marker(
+                [35.8699989,-106.5709991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_de3b8d8c333e44eca7c07edb2732dc1e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9e25fcab0448402281852f800d51a655.setIcon(icon_de3b8d8c333e44eca7c07edb2732dc1e);
+            
+    
+            var popup_fd8977ac1c78466ca77b450557094c1f = L.popup({maxWidth: '300'});
+
+            
+                var html_c616b9d289924509b082603a330a4e6f = $('<div id="html_c616b9d289924509b082603a330a4e6f" style="width: 100.0%; height: 100.0%;">Valles Caldera, US-New Mexico, Pleistocene-Fumarolic, 3430</div>')[0];
+                popup_fd8977ac1c78466ca77b450557094c1f.setContent(html_c616b9d289924509b082603a330a4e6f);
+            
+
+            marker_9e25fcab0448402281852f800d51a655.bindPopup(popup_fd8977ac1c78466ca77b450557094c1f);
+
+            
+        
+    
+
+            var marker_360edd092247470e93ac8b1dea4f4311 = L.marker(
+                [35.3699989,-111.5009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_5eb640eb0a64420692bf6837fbf0166d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_360edd092247470e93ac8b1dea4f4311.setIcon(icon_5eb640eb0a64420692bf6837fbf0166d);
+            
+    
+            var popup_f86eb83b00194dc084e3a1165c629b09 = L.popup({maxWidth: '300'});
+
+            
+                var html_07cbd89ec1ea453484e36303103b82f2 = $('<div id="html_07cbd89ec1ea453484e36303103b82f2" style="width: 100.0%; height: 100.0%;">Sunset Crater, US-Arizona, Dendrochronology, 2447</div>')[0];
+                popup_f86eb83b00194dc084e3a1165c629b09.setContent(html_07cbd89ec1ea453484e36303103b82f2);
+            
+
+            marker_360edd092247470e93ac8b1dea4f4311.bindPopup(popup_f86eb83b00194dc084e3a1165c629b09);
+
+            
+        
+    
+
+            var marker_4ac643d2e96d4fe3bb2b7cd0d2ba4faa = L.marker(
+                [34.5499992,-115.7809982],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_258767ee5e444838a3812d0482a9bbf9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4ac643d2e96d4fe3bb2b7cd0d2ba4faa.setIcon(icon_258767ee5e444838a3812d0482a9bbf9);
+            
+    
+            var popup_5a51c7fc285542d0afbd7b5020459267 = L.popup({maxWidth: '300'});
+
+            
+                var html_c2dac7b7222b48f2bad7bc11655f7fea = $('<div id="html_c2dac7b7222b48f2bad7bc11655f7fea" style="width: 100.0%; height: 100.0%;">Amboy, US-California, Holocene, 288</div>')[0];
+                popup_5a51c7fc285542d0afbd7b5020459267.setContent(html_c2dac7b7222b48f2bad7bc11655f7fea);
+            
+
+            marker_4ac643d2e96d4fe3bb2b7cd0d2ba4faa.bindPopup(popup_5a51c7fc285542d0afbd7b5020459267);
+
+            
+        
+    
+
+            var marker_613ca1a6953148e4929d12c23d06b1c8 = L.marker(
+                [34.7999992,-108.0009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_c5b9da67dc0c489bbb5ea0878e2057a5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_613ca1a6953148e4929d12c23d06b1c8.setIcon(icon_c5b9da67dc0c489bbb5ea0878e2057a5);
+            
+    
+            var popup_813f514310024348890129e2180bcb9f = L.popup({maxWidth: '300'});
+
+            
+                var html_4f43efeab45b4e45b85d6c1114cc2b08 = $('<div id="html_4f43efeab45b4e45b85d6c1114cc2b08" style="width: 100.0%; height: 100.0%;">Zuni-Bandera, US-New Mexico, Anthropology, 2550</div>')[0];
+                popup_813f514310024348890129e2180bcb9f.setContent(html_4f43efeab45b4e45b85d6c1114cc2b08);
+            
+
+            marker_613ca1a6953148e4929d12c23d06b1c8.bindPopup(popup_813f514310024348890129e2180bcb9f);
+
+            
+        
+    
+
+            var marker_11292ade8d724412bcb06c5e7880abf1 = L.marker(
+                [33.7801018,-105.9309998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_03a4d684a9e24f928519d62b0bd4c8f3);
+            
+    
+
+                var icon_e464ac9786ae48728fcba768ce67d6f9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_11292ade8d724412bcb06c5e7880abf1.setIcon(icon_e464ac9786ae48728fcba768ce67d6f9);
+            
+    
+            var popup_891d91d11b0942d5992fcad9b5fa2634 = L.popup({maxWidth: '300'});
+
+            
+                var html_00affe0df40647e1a86a6d274efa4eb9 = $('<div id="html_00affe0df40647e1a86a6d274efa4eb9" style="width: 100.0%; height: 100.0%;">Carrizozo, US-New Mexico, Holocene, 1731</div>')[0];
+                popup_891d91d11b0942d5992fcad9b5fa2634.setContent(html_00affe0df40647e1a86a6d274efa4eb9);
+            
+
+            marker_11292ade8d724412bcb06c5e7880abf1.bindPopup(popup_891d91d11b0942d5992fcad9b5fa2634);
+
+            
+        
+</script>
