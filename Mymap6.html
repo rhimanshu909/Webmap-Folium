@@ -1,0 +1,2114 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_d137733cebd84ee68390fd6ad427346d {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d137733cebd84ee68390fd6ad427346d" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_d137733cebd84ee68390fd6ad427346d = L.map(
+                                  'map_d137733cebd84ee68390fd6ad427346d',
+                                  {center: [48.7767982,-121.810997],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_0e260687c8224e83abadb9a0d49d5338 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_d137733cebd84ee68390fd6ad427346d);
+        
+    
+            var feature_group_5e7d35796cae410f97185e2a95843e3c = L.featureGroup(
+                ).addTo(map_d137733cebd84ee68390fd6ad427346d);
+        
+    
+            var circle_marker_287544825b8f413d8d1865dadec26c26 = L.circleMarker(
+                [48.7767982,-121.810997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_cc20571062c648e3954b9e78cfcf59da = L.popup({maxWidth: '300'});
+
+            
+                var html_8acc1a2944254b4f9a666aa4a1719c0f = $('<div id="html_8acc1a2944254b4f9a666aa4a1719c0f" style="width: 100.0%; height: 100.0%;">Baker, US-Washington, Historical, 3285</div>')[0];
+                popup_cc20571062c648e3954b9e78cfcf59da.setContent(html_8acc1a2944254b4f9a666aa4a1719c0f);
+            
+
+            circle_marker_287544825b8f413d8d1865dadec26c26.bindPopup(popup_cc20571062c648e3954b9e78cfcf59da);
+
+            
+        
+    
+            var circle_marker_56029a1600224b558a886e669657b7b3 = L.circleMarker(
+                [48.1118011,-121.1110001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_7c70d2b339bc4821836deb5175874638 = L.popup({maxWidth: '300'});
+
+            
+                var html_ce20adb318de44ec997b9948c3c0c8d3 = $('<div id="html_ce20adb318de44ec997b9948c3c0c8d3" style="width: 100.0%; height: 100.0%;">Glacier Peak, US-Washington, Tephrochronology, 3213</div>')[0];
+                popup_7c70d2b339bc4821836deb5175874638.setContent(html_ce20adb318de44ec997b9948c3c0c8d3);
+            
+
+            circle_marker_56029a1600224b558a886e669657b7b3.bindPopup(popup_7c70d2b339bc4821836deb5175874638);
+
+            
+        
+    
+            var circle_marker_ddbe275948204d02aea10adb62608f14 = L.circleMarker(
+                [46.8698006,-121.7509995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_6d60484eb96540cab27476c21646fa91 = L.popup({maxWidth: '300'});
+
+            
+                var html_863c3d5fb02f46bbbf1bcaf8bb1e0f0b = $('<div id="html_863c3d5fb02f46bbbf1bcaf8bb1e0f0b" style="width: 100.0%; height: 100.0%;">Rainier, US-Washington, Dendrochronology, 4392</div>')[0];
+                popup_6d60484eb96540cab27476c21646fa91.setContent(html_863c3d5fb02f46bbbf1bcaf8bb1e0f0b);
+            
+
+            circle_marker_ddbe275948204d02aea10adb62608f14.bindPopup(popup_6d60484eb96540cab27476c21646fa91);
+
+            
+        
+    
+            var circle_marker_e497df7d9dd44de382051a4d777e3d42 = L.circleMarker(
+                [46.1997986,-122.1809998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_09672a0735004f379a5e83958fb1940c = L.popup({maxWidth: '300'});
+
+            
+                var html_5c2fe4ca8a4647a3994c461721777a35 = $('<div id="html_5c2fe4ca8a4647a3994c461721777a35" style="width: 100.0%; height: 100.0%;">St. Helens, US-Washington, Historical, 2549</div>')[0];
+                popup_09672a0735004f379a5e83958fb1940c.setContent(html_5c2fe4ca8a4647a3994c461721777a35);
+            
+
+            circle_marker_e497df7d9dd44de382051a4d777e3d42.bindPopup(popup_09672a0735004f379a5e83958fb1940c);
+
+            
+        
+    
+            var circle_marker_cf1954fc86d548b09250ea6c47c61039 = L.circleMarker(
+                [46.2057991,-121.4909973],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_918a20531b3842809cfafe082a3cee9d = L.popup({maxWidth: '300'});
+
+            
+                var html_35d4b3af43bb43ed9cc4c37454172dd0 = $('<div id="html_35d4b3af43bb43ed9cc4c37454172dd0" style="width: 100.0%; height: 100.0%;">Adams, US-Washington, Tephrochronology, 3742</div>')[0];
+                popup_918a20531b3842809cfafe082a3cee9d.setContent(html_35d4b3af43bb43ed9cc4c37454172dd0);
+            
+
+            circle_marker_cf1954fc86d548b09250ea6c47c61039.bindPopup(popup_918a20531b3842809cfafe082a3cee9d);
+
+            
+        
+    
+            var circle_marker_88dcae21776e45daa1813046dc9a9fc8 = L.circleMarker(
+                [45.8797989,-122.0810013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_9754d314a132418ea5dfd1fc476aa82a = L.popup({maxWidth: '300'});
+
+            
+                var html_3d98d174ad774124bac0c3f0bcea1434 = $('<div id="html_3d98d174ad774124bac0c3f0bcea1434" style="width: 100.0%; height: 100.0%;">West Crater, US-Washington, Radiocarbon, 1329</div>')[0];
+                popup_9754d314a132418ea5dfd1fc476aa82a.setContent(html_3d98d174ad774124bac0c3f0bcea1434);
+            
+
+            circle_marker_88dcae21776e45daa1813046dc9a9fc8.bindPopup(popup_9754d314a132418ea5dfd1fc476aa82a);
+
+            
+        
+    
+            var circle_marker_ec871ec27b2543c7b254676ed7247f96 = L.circleMarker(
+                [45.9297981,-121.8209991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_7b6de65926cb475db3168fb2093971a1 = L.popup({maxWidth: '300'});
+
+            
+                var html_b4aa3db32c7646319468d352b0acc27b = $('<div id="html_b4aa3db32c7646319468d352b0acc27b" style="width: 100.0%; height: 100.0%;">Indian Heaven, US-Washington, Radiocarbon, 1806</div>')[0];
+                popup_7b6de65926cb475db3168fb2093971a1.setContent(html_b4aa3db32c7646319468d352b0acc27b);
+            
+
+            circle_marker_ec871ec27b2543c7b254676ed7247f96.bindPopup(popup_7b6de65926cb475db3168fb2093971a1);
+
+            
+        
+    
+            var circle_marker_04367eb4ff0546b2ac4ec8fbe0c53573 = L.circleMarker(
+                [45.3737984,-121.6910019],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_2af82a40a5c544d2af8f04553e03c096 = L.popup({maxWidth: '300'});
+
+            
+                var html_40894cc540eb401c892d80b8895523fe = $('<div id="html_40894cc540eb401c892d80b8895523fe" style="width: 100.0%; height: 100.0%;">Hood, US-Oregon, Historical, 3426</div>')[0];
+                popup_2af82a40a5c544d2af8f04553e03c096.setContent(html_40894cc540eb401c892d80b8895523fe);
+            
+
+            circle_marker_04367eb4ff0546b2ac4ec8fbe0c53573.bindPopup(popup_2af82a40a5c544d2af8f04553e03c096);
+
+            
+        
+    
+            var circle_marker_cb0d73facd794b4d9e5fd9e8f99c8da2 = L.circleMarker(
+                [44.6917992,-121.8010025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_c8d9474d2b0040ba828d99536b52d69e = L.popup({maxWidth: '300'});
+
+            
+                var html_2e234b36db394647bbf984e8e52459c4 = $('<div id="html_2e234b36db394647bbf984e8e52459c4" style="width: 100.0%; height: 100.0%;">Jefferson, US-Oregon, Varve Count, 3199</div>')[0];
+                popup_c8d9474d2b0040ba828d99536b52d69e.setContent(html_2e234b36db394647bbf984e8e52459c4);
+            
+
+            circle_marker_cb0d73facd794b4d9e5fd9e8f99c8da2.bindPopup(popup_c8d9474d2b0040ba828d99536b52d69e);
+
+            
+        
+    
+            var circle_marker_9e79b4c778fc4ed5b5ea9672ba16f797 = L.circleMarker(
+                [44.4197998,-121.7710037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_b2cf184e4def44f88f7edcd958939de4 = L.popup({maxWidth: '300'});
+
+            
+                var html_cb9ff91884e64314bb33196dfd7178a9 = $('<div id="html_cb9ff91884e64314bb33196dfd7178a9" style="width: 100.0%; height: 100.0%;">Blue Lake Crater, US-Oregon, Radiocarbon, 1230</div>')[0];
+                popup_b2cf184e4def44f88f7edcd958939de4.setContent(html_cb9ff91884e64314bb33196dfd7178a9);
+            
+
+            circle_marker_9e79b4c778fc4ed5b5ea9672ba16f797.bindPopup(popup_b2cf184e4def44f88f7edcd958939de4);
+
+            
+        
+    
+            var circle_marker_6b749ac7451842b5ae7ef56db18f4c7f = L.circleMarker(
+                [44.3797989,-121.9309998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_b59a6875113947cb8eb0092e4c75529e = L.popup({maxWidth: '300'});
+
+            
+                var html_a48d2ed76bbe4761886fe1e8b365152f = $('<div id="html_a48d2ed76bbe4761886fe1e8b365152f" style="width: 100.0%; height: 100.0%;">Sand Mountain Field, US-Oregon, Radiocarbon, 1664</div>')[0];
+                popup_b59a6875113947cb8eb0092e4c75529e.setContent(html_a48d2ed76bbe4761886fe1e8b365152f);
+            
+
+            circle_marker_6b749ac7451842b5ae7ef56db18f4c7f.bindPopup(popup_b59a6875113947cb8eb0092e4c75529e);
+
+            
+        
+    
+            var circle_marker_ccb1dc5b54e240a1a9f6a1a6a383edb0 = L.circleMarker(
+                [44.3317986,-121.8310013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_69e6e3d5d9d946a3bc4bb065a6783a96 = L.popup({maxWidth: '300'});
+
+            
+                var html_a0414dab8e9c4a7d8b92fd4e976d93bf = $('<div id="html_a0414dab8e9c4a7d8b92fd4e976d93bf" style="width: 100.0%; height: 100.0%;">Washington, US-Oregon, Radiocarbon, 2376</div>')[0];
+                popup_69e6e3d5d9d946a3bc4bb065a6783a96.setContent(html_a0414dab8e9c4a7d8b92fd4e976d93bf);
+            
+
+            circle_marker_ccb1dc5b54e240a1a9f6a1a6a383edb0.bindPopup(popup_69e6e3d5d9d946a3bc4bb065a6783a96);
+
+            
+        
+    
+            var circle_marker_17dd258a1e6c48688058d7796460b21e = L.circleMarker(
+                [44.2848015,-121.8410034],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_94ccea2571864559a7abfe81756bf5ed = L.popup({maxWidth: '300'});
+
+            
+                var html_0999788b83e34490a45a70a03042a458 = $('<div id="html_0999788b83e34490a45a70a03042a458" style="width: 100.0%; height: 100.0%;">Belknap, US-Oregon, Radiocarbon, 2095</div>')[0];
+                popup_94ccea2571864559a7abfe81756bf5ed.setContent(html_0999788b83e34490a45a70a03042a458);
+            
+
+            circle_marker_17dd258a1e6c48688058d7796460b21e.bindPopup(popup_94ccea2571864559a7abfe81756bf5ed);
+
+            
+        
+    
+            var circle_marker_6e64bea3205247abb5738030d6e40e89 = L.circleMarker(
+                [44.1697998,-121.7710037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_1532cd9483644b6bb7c3ef488853dcb9 = L.popup({maxWidth: '300'});
+
+            
+                var html_8e328647c0b04d0dae52d960924cc632 = $('<div id="html_8e328647c0b04d0dae52d960924cc632" style="width: 100.0%; height: 100.0%;">North Sister Field, US-Oregon, Radiocarbon, 3074</div>')[0];
+                popup_1532cd9483644b6bb7c3ef488853dcb9.setContent(html_8e328647c0b04d0dae52d960924cc632);
+            
+
+            circle_marker_6e64bea3205247abb5738030d6e40e89.bindPopup(popup_1532cd9483644b6bb7c3ef488853dcb9);
+
+            
+        
+    
+            var circle_marker_824b38442d1648068008a7b05e99e528 = L.circleMarker(
+                [44.0998001,-121.7710037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_3d41ca3425594276b7887e93ca6bc7eb = L.popup({maxWidth: '300'});
+
+            
+                var html_0885189dd23a468d81879358d8f7b4e0 = $('<div id="html_0885189dd23a468d81879358d8f7b4e0" style="width: 100.0%; height: 100.0%;">South Sister, US-Oregon, Radiocarbon, 3157</div>')[0];
+                popup_3d41ca3425594276b7887e93ca6bc7eb.setContent(html_0885189dd23a468d81879358d8f7b4e0);
+            
+
+            circle_marker_824b38442d1648068008a7b05e99e528.bindPopup(popup_3d41ca3425594276b7887e93ca6bc7eb);
+
+            
+        
+    
+            var circle_marker_f118504a8d134083b63f0cfce8b1c422 = L.circleMarker(
+                [43.9788017,-121.6809998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_d7b302c85dc24cd487a973f758558d0a = L.popup({maxWidth: '300'});
+
+            
+                var html_10e7731359e04c8f97c7c74570a751d2 = $('<div id="html_10e7731359e04c8f97c7c74570a751d2" style="width: 100.0%; height: 100.0%;">Bachelor, US-Oregon, Tephrochronology, 2763</div>')[0];
+                popup_d7b302c85dc24cd487a973f758558d0a.setContent(html_10e7731359e04c8f97c7c74570a751d2);
+            
+
+            circle_marker_f118504a8d134083b63f0cfce8b1c422.bindPopup(popup_d7b302c85dc24cd487a973f758558d0a);
+
+            
+        
+    
+            var circle_marker_8f3342c4ec92412b84a26b3bdcec0272 = L.circleMarker(
+                [43.7218018,-121.2210007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_78dec04ba20e4978b06ed799a1b82307 = L.popup({maxWidth: '300'});
+
+            
+                var html_1df3da1ed3b247cc973eaf9980d886dd = $('<div id="html_1df3da1ed3b247cc973eaf9980d886dd" style="width: 100.0%; height: 100.0%;">Newberry Volcano, US-Oregon, Radiocarbon, 2434</div>')[0];
+                popup_78dec04ba20e4978b06ed799a1b82307.setContent(html_1df3da1ed3b247cc973eaf9980d886dd);
+            
+
+            circle_marker_8f3342c4ec92412b84a26b3bdcec0272.bindPopup(popup_78dec04ba20e4978b06ed799a1b82307);
+
+            
+        
+    
+            var circle_marker_eca303dfff77406287ee69808058f928 = L.circleMarker(
+                [43.5698013,-121.8209991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_55181f83f1934f87b38f21458a8a4db9 = L.popup({maxWidth: '300'});
+
+            
+                var html_4c52c43bf7f64e379b3040c24418ae64 = $('<div id="html_4c52c43bf7f64e379b3040c24418ae64" style="width: 100.0%; height: 100.0%;">Davis Lake, US-Oregon, Radiocarbon, 2163</div>')[0];
+                popup_55181f83f1934f87b38f21458a8a4db9.setContent(html_4c52c43bf7f64e379b3040c24418ae64);
+            
+
+            circle_marker_eca303dfff77406287ee69808058f928.bindPopup(popup_55181f83f1934f87b38f21458a8a4db9);
+
+            
+        
+    
+            var circle_marker_a796b3a30f8f4eb8b227e57846c88813 = L.circleMarker(
+                [43.5119019,-120.8610001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_b2096584df83469cb242aedebbc3ac6d = L.popup({maxWidth: '300'});
+
+            
+                var html_e4d17358229e4fe0975f1f4009e83d4d = $('<div id="html_e4d17358229e4fe0975f1f4009e83d4d" style="width: 100.0%; height: 100.0%;">Devils Garden, US-Oregon, Holocene?, 1698</div>')[0];
+                popup_b2096584df83469cb242aedebbc3ac6d.setContent(html_e4d17358229e4fe0975f1f4009e83d4d);
+            
+
+            circle_marker_a796b3a30f8f4eb8b227e57846c88813.bindPopup(popup_b2096584df83469cb242aedebbc3ac6d);
+
+            
+        
+    
+            var circle_marker_af9940c5b13747e49ee4a1b6d3ac6076 = L.circleMarker(
+                [43.240799,-122.1009979],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_5fa7e7eef17643ca8b61e2c196b40f5c = L.popup({maxWidth: '300'});
+
+            
+                var html_4dfbadf4a2a1492b9df33aad0bad6413 = $('<div id="html_4dfbadf4a2a1492b9df33aad0bad6413" style="width: 100.0%; height: 100.0%;">Cinnamon Butte, US-Oregon, Holocene?, 1956</div>')[0];
+                popup_5fa7e7eef17643ca8b61e2c196b40f5c.setContent(html_4dfbadf4a2a1492b9df33aad0bad6413);
+            
+
+            circle_marker_af9940c5b13747e49ee4a1b6d3ac6076.bindPopup(popup_5fa7e7eef17643ca8b61e2c196b40f5c);
+
+            
+        
+    
+            var circle_marker_7bb696fad0ab4cf7af5303f67a150733 = L.circleMarker(
+                [43.4719009,-120.7509995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_fe37490084804eeba8dd4c19f7dd54c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_352fe418fc954469aa6aefec856aafaa = $('<div id="html_352fe418fc954469aa6aefec856aafaa" style="width: 100.0%; height: 100.0%;">Squaw Ridge Lava Field, US-Oregon, Holocene?, 1711</div>')[0];
+                popup_fe37490084804eeba8dd4c19f7dd54c4.setContent(html_352fe418fc954469aa6aefec856aafaa);
+            
+
+            circle_marker_7bb696fad0ab4cf7af5303f67a150733.bindPopup(popup_fe37490084804eeba8dd4c19f7dd54c4);
+
+            
+        
+    
+            var circle_marker_8a2937be4cdb41eeb2719624e589361e = L.circleMarker(
+                [43.3609009,-120.6610031],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_8cc2d7310ad147989b997b535ee542f8 = L.popup({maxWidth: '300'});
+
+            
+                var html_5c00a16ee1864fb0a4745923a9fa229b = $('<div id="html_5c00a16ee1864fb0a4745923a9fa229b" style="width: 100.0%; height: 100.0%;">Four Craters Lava Field, US-Oregon, Holocene?, 1501</div>')[0];
+                popup_8cc2d7310ad147989b997b535ee542f8.setContent(html_5c00a16ee1864fb0a4745923a9fa229b);
+            
+
+            circle_marker_8a2937be4cdb41eeb2719624e589361e.bindPopup(popup_8cc2d7310ad147989b997b535ee542f8);
+
+            
+        
+    
+            var circle_marker_c0a5436ca100407db28272b231b26505 = L.circleMarker(
+                [42.9299011,-122.1210022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_6e7b5b4ce1a44e97a48e3db118de3221 = L.popup({maxWidth: '300'});
+
+            
+                var html_000e9fc200bb4065a25070b0dbada512 = $('<div id="html_000e9fc200bb4065a25070b0dbada512" style="width: 100.0%; height: 100.0%;">Crater Lake, US-Oregon, Radiocarbon, 2487</div>')[0];
+                popup_6e7b5b4ce1a44e97a48e3db118de3221.setContent(html_000e9fc200bb4065a25070b0dbada512);
+            
+
+            circle_marker_c0a5436ca100407db28272b231b26505.bindPopup(popup_6e7b5b4ce1a44e97a48e3db118de3221);
+
+            
+        
+    
+            var circle_marker_c2637a12ae7e4c16b01a7dcf953402c4 = L.circleMarker(
+                [44.4299011,-110.6709976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_addec5cafe584a4cb9990c04218a49b5 = L.popup({maxWidth: '300'});
+
+            
+                var html_dc49dba1cf0f4632b0337b8c72b42bab = $('<div id="html_dc49dba1cf0f4632b0337b8c72b42bab" style="width: 100.0%; height: 100.0%;">Yellowstone, US-Wyoming, Tephrochronology, 2805</div>')[0];
+                popup_addec5cafe584a4cb9990c04218a49b5.setContent(html_dc49dba1cf0f4632b0337b8c72b42bab);
+            
+
+            circle_marker_c2637a12ae7e4c16b01a7dcf953402c4.bindPopup(popup_addec5cafe584a4cb9990c04218a49b5);
+
+            
+        
+    
+            var circle_marker_fe102f705f3748c49049ae2bff3e0a7a = L.circleMarker(
+                [43.0998993,-118.7509995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_97edb9f89cec47a7b7762e7b2ef7fe9d = L.popup({maxWidth: '300'});
+
+            
+                var html_3d15a8efeb3d400688589d1b71d9b23d = $('<div id="html_3d15a8efeb3d400688589d1b71d9b23d" style="width: 100.0%; height: 100.0%;">Diamond Craters, US-Oregon, Holocene?, 1435</div>')[0];
+                popup_97edb9f89cec47a7b7762e7b2ef7fe9d.setContent(html_3d15a8efeb3d400688589d1b71d9b23d);
+            
+
+            circle_marker_fe102f705f3748c49049ae2bff3e0a7a.bindPopup(popup_97edb9f89cec47a7b7762e7b2ef7fe9d);
+
+            
+        
+    
+            var circle_marker_f8bb4a0c0bde4fa996b75432e14d8920 = L.circleMarker(
+                [43.1498985,-117.4710007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_e2e49c7c4e894eb3a5a33b21e993efa4 = L.popup({maxWidth: '300'});
+
+            
+                var html_f95578b27e2b4e6abd97bf1f67f4cf19 = $('<div id="html_f95578b27e2b4e6abd97bf1f67f4cf19" style="width: 100.0%; height: 100.0%;">Jordan Craters, US-Oregon, Radiocarbon, 1473</div>')[0];
+                popup_e2e49c7c4e894eb3a5a33b21e993efa4.setContent(html_f95578b27e2b4e6abd97bf1f67f4cf19);
+            
+
+            circle_marker_f8bb4a0c0bde4fa996b75432e14d8920.bindPopup(popup_e2e49c7c4e894eb3a5a33b21e993efa4);
+
+            
+        
+    
+            var circle_marker_f2eb499c0c954ed68ae4d3b749fdd7a8 = L.circleMarker(
+                [42.9999008,-117.8010025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_30c4646077dc431d85625e8f10b1a3df = L.popup({maxWidth: '300'});
+
+            
+                var html_1a21bcad261447a6a21e4899a440cd75 = $('<div id="html_1a21bcad261447a6a21e4899a440cd75" style="width: 100.0%; height: 100.0%;">Saddle Butte, US-Oregon, Holocene?, 1700</div>')[0];
+                popup_30c4646077dc431d85625e8f10b1a3df.setContent(html_1a21bcad261447a6a21e4899a440cd75);
+            
+
+            circle_marker_f2eb499c0c954ed68ae4d3b749fdd7a8.bindPopup(popup_30c4646077dc431d85625e8f10b1a3df);
+
+            
+        
+    
+            var circle_marker_a26f439d215346898be9552d187c48d6 = L.circleMarker(
+                [43.419899,-113.5009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_260876a7fe8a4d31a3509a6f9bb585ec = L.popup({maxWidth: '300'});
+
+            
+                var html_df8dbfb8027c452197a403e282c5dd01 = $('<div id="html_df8dbfb8027c452197a403e282c5dd01" style="width: 100.0%; height: 100.0%;">Craters of the Moon, US-Idaho, Radiocarbon, 2005</div>')[0];
+                popup_260876a7fe8a4d31a3509a6f9bb585ec.setContent(html_df8dbfb8027c452197a403e282c5dd01);
+            
+
+            circle_marker_a26f439d215346898be9552d187c48d6.bindPopup(popup_260876a7fe8a4d31a3509a6f9bb585ec);
+
+            
+        
+    
+            var circle_marker_6d37115bed4e4ae3b776e995d228b0b8 = L.circleMarker(
+                [43.4999008,-112.4509964],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_dc672413d01b44cdb5a13d032419c3dc = L.popup({maxWidth: '300'});
+
+            
+                var html_69bbec9c0eef443cb2572728a795d50c = $('<div id="html_69bbec9c0eef443cb2572728a795d50c" style="width: 100.0%; height: 100.0%;">Hell&#39;s Half Acre, US-Idaho, Radiocarbon, 1631</div>')[0];
+                popup_dc672413d01b44cdb5a13d032419c3dc.setContent(html_69bbec9c0eef443cb2572728a795d50c);
+            
+
+            circle_marker_6d37115bed4e4ae3b776e995d228b0b8.bindPopup(popup_dc672413d01b44cdb5a13d032419c3dc);
+
+            
+        
+    
+            var circle_marker_98c37735d7944e1e8e88283005dc72b4 = L.circleMarker(
+                [43.1799011,-114.3509979],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_0811b43d07434515b3bfd5f3cf9813b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_f98f5e2d559749039c6ed54514639439 = $('<div id="html_f98f5e2d559749039c6ed54514639439" style="width: 100.0%; height: 100.0%;">Shoshone Lava Field, US-Idaho, Holocene, 1478</div>')[0];
+                popup_0811b43d07434515b3bfd5f3cf9813b2.setContent(html_f98f5e2d559749039c6ed54514639439);
+            
+
+            circle_marker_98c37735d7944e1e8e88283005dc72b4.bindPopup(popup_0811b43d07434515b3bfd5f3cf9813b2);
+
+            
+        
+    
+            var circle_marker_7cced83a74c145318fb3f0663ca14631 = L.circleMarker(
+                [42.6058998,-117.5810013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_e2ba2dd2cb914da794edfe987169675f = L.popup({maxWidth: '300'});
+
+            
+                var html_11736303bdb347b29ee4e3687c1169ab = $('<div id="html_11736303bdb347b29ee4e3687c1169ab" style="width: 100.0%; height: 100.0%;">Jackies Butte, US-Oregon, Holocene?, 1418</div>')[0];
+                popup_e2ba2dd2cb914da794edfe987169675f.setContent(html_11736303bdb347b29ee4e3687c1169ab);
+            
+
+            circle_marker_7cced83a74c145318fb3f0663ca14631.bindPopup(popup_e2ba2dd2cb914da794edfe987169675f);
+
+            
+        
+    
+            var circle_marker_4ffb0bdee66946dabcbd0b1e98060ed5 = L.circleMarker(
+                [41.5798988,-121.5709991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_651c9d2b95ba48359f67e5b49ae25cd5 = L.popup({maxWidth: '300'});
+
+            
+                var html_84012a1e6f954597a0ca9a6df3a68ee3 = $('<div id="html_84012a1e6f954597a0ca9a6df3a68ee3" style="width: 100.0%; height: 100.0%;">Medicine Lake, US-California, Radiocarbon, 2412</div>')[0];
+                popup_651c9d2b95ba48359f67e5b49ae25cd5.setContent(html_84012a1e6f954597a0ca9a6df3a68ee3);
+            
+
+            circle_marker_4ffb0bdee66946dabcbd0b1e98060ed5.bindPopup(popup_651c9d2b95ba48359f67e5b49ae25cd5);
+
+            
+        
+    
+            var circle_marker_de77eb1b6e7b4a9fa0cc370e7d988e94 = L.circleMarker(
+                [42.8799019,-113.2210007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_f5217a2b4de145358ddc09292e390b9c = L.popup({maxWidth: '300'});
+
+            
+                var html_6779076418014b809d0cccb871037230 = $('<div id="html_6779076418014b809d0cccb871037230" style="width: 100.0%; height: 100.0%;">Wapi Lava Field, US-Idaho, Radiocarbon, 1604</div>')[0];
+                popup_f5217a2b4de145358ddc09292e390b9c.setContent(html_6779076418014b809d0cccb871037230);
+            
+
+            circle_marker_de77eb1b6e7b4a9fa0cc370e7d988e94.bindPopup(popup_f5217a2b4de145358ddc09292e390b9c);
+
+            
+        
+    
+            var circle_marker_4e493ea3e1734de091cf2b71bd5af727 = L.circleMarker(
+                [41.419899,-122.2009964],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_ace80dad7f974058b0881d1f240b6576 = L.popup({maxWidth: '300'});
+
+            
+                var html_0faf12b43e24471e8500a3989328b0c0 = $('<div id="html_0faf12b43e24471e8500a3989328b0c0" style="width: 100.0%; height: 100.0%;">Shasta, US-California, Historical, 4317</div>')[0];
+                popup_ace80dad7f974058b0881d1f240b6576.setContent(html_0faf12b43e24471e8500a3989328b0c0);
+            
+
+            circle_marker_4e493ea3e1734de091cf2b71bd5af727.bindPopup(popup_ace80dad7f974058b0881d1f240b6576);
+
+            
+        
+    
+            var circle_marker_c20828ff20e34829b6a5b4cfe8247ec4 = L.circleMarker(
+                [41.1778984,-121.4410019],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_0faa3d8d56144a97a643892f8dd426e1 = L.popup({maxWidth: '300'});
+
+            
+                var html_0b52a06c91714d8686f094e3dbd8a7d9 = $('<div id="html_0b52a06c91714d8686f094e3dbd8a7d9" style="width: 100.0%; height: 100.0%;">Brushy Butte, US-California, Holocene?, 1174</div>')[0];
+                popup_0faa3d8d56144a97a643892f8dd426e1.setContent(html_0b52a06c91714d8686f094e3dbd8a7d9);
+            
+
+            circle_marker_c20828ff20e34829b6a5b4cfe8247ec4.bindPopup(popup_0faa3d8d56144a97a643892f8dd426e1);
+
+            
+        
+    
+            var circle_marker_e0bec648e01145cebb3ab3e852d13b07 = L.circleMarker(
+                [40.9548988,-121.3610001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_37f927b583b048faa915e97a475e8e1e = L.popup({maxWidth: '300'});
+
+            
+                var html_dccf6ad7c6e2496a8982ae5825893e75 = $('<div id="html_dccf6ad7c6e2496a8982ae5825893e75" style="width: 100.0%; height: 100.0%;">Big Cave, US-California, Holocene?, 1259</div>')[0];
+                popup_37f927b583b048faa915e97a475e8e1e.setContent(html_dccf6ad7c6e2496a8982ae5825893e75);
+            
+
+            circle_marker_e0bec648e01145cebb3ab3e852d13b07.bindPopup(popup_37f927b583b048faa915e97a475e8e1e);
+
+            
+        
+    
+            var circle_marker_ebc372d7ecf348719da29646984f8155 = L.circleMarker(
+                [40.7798996,-121.6009979],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_d33c988b45524503ae3325088249367a = L.popup({maxWidth: '300'});
+
+            
+                var html_1dde97479193419bbfd6553f7c258a47 = $('<div id="html_1dde97479193419bbfd6553f7c258a47" style="width: 100.0%; height: 100.0%;">Twin Buttes, US-California, Holocene?, 1631</div>')[0];
+                popup_d33c988b45524503ae3325088249367a.setContent(html_1dde97479193419bbfd6553f7c258a47);
+            
+
+            circle_marker_ebc372d7ecf348719da29646984f8155.bindPopup(popup_d33c988b45524503ae3325088249367a);
+
+            
+        
+    
+            var circle_marker_2197e4b66c024d0cbd88ea0842b3bc54 = L.circleMarker(
+                [40.6799011,-121.5510025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_e20de11e2a2f4e3496bd0768124605e4 = L.popup({maxWidth: '300'});
+
+            
+                var html_71c2264cc6c44c57a7ac292420829bf4 = $('<div id="html_71c2264cc6c44c57a7ac292420829bf4" style="width: 100.0%; height: 100.0%;">Tumble Buttes, US-California, Holocene?, 2191</div>')[0];
+                popup_e20de11e2a2f4e3496bd0768124605e4.setContent(html_71c2264cc6c44c57a7ac292420829bf4);
+            
+
+            circle_marker_2197e4b66c024d0cbd88ea0842b3bc54.bindPopup(popup_e20de11e2a2f4e3496bd0768124605e4);
+
+            
+        
+    
+            var circle_marker_a9ad1812e32e47f5bba169275059044f = L.circleMarker(
+                [40.6299019,-120.8310013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_a2af1b1c2d8e4e8fada70abdd128f2c7 = L.popup({maxWidth: '300'});
+
+            
+                var html_9b9aa4eb5b7a4fc9b80aa7a696d73b92 = $('<div id="html_9b9aa4eb5b7a4fc9b80aa7a696d73b92" style="width: 100.0%; height: 100.0%;">Eagle Lake Field, US-California, Holocene?, 1652</div>')[0];
+                popup_a2af1b1c2d8e4e8fada70abdd128f2c7.setContent(html_9b9aa4eb5b7a4fc9b80aa7a696d73b92);
+            
+
+            circle_marker_a9ad1812e32e47f5bba169275059044f.bindPopup(popup_a2af1b1c2d8e4e8fada70abdd128f2c7);
+
+            
+        
+    
+            var circle_marker_ef33f55a216c4e7d9f5e50db1de6015f = L.circleMarker(
+                [40.4919014,-121.5009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_69ac1fe67e5d43978805b111a5a6fc2c = L.popup({maxWidth: '300'});
+
+            
+                var html_f24cc926f3ac4318be13c1d66badd240 = $('<div id="html_f24cc926f3ac4318be13c1d66badd240" style="width: 100.0%; height: 100.0%;">Lassen Volc Center, US-California, Historical, 3187</div>')[0];
+                popup_69ac1fe67e5d43978805b111a5a6fc2c.setContent(html_f24cc926f3ac4318be13c1d66badd240);
+            
+
+            circle_marker_ef33f55a216c4e7d9f5e50db1de6015f.bindPopup(popup_69ac1fe67e5d43978805b111a5a6fc2c);
+
+            
+        
+    
+            var circle_marker_a62362eadaa943cb8eb4276f8cc2033c = L.circleMarker(
+                [38.9698982,-122.7710037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_34c99320b9ff4478ab565ec636fe6874 = L.popup({maxWidth: '300'});
+
+            
+                var html_3a2d5599f00c400890ba1d18c7d0f058 = $('<div id="html_3a2d5599f00c400890ba1d18c7d0f058" style="width: 100.0%; height: 100.0%;">Clear Lake, US-California, Holocene, 1439</div>')[0];
+                popup_34c99320b9ff4478ab565ec636fe6874.setContent(html_3a2d5599f00c400890ba1d18c7d0f058);
+            
+
+            circle_marker_a62362eadaa943cb8eb4276f8cc2033c.bindPopup(popup_34c99320b9ff4478ab565ec636fe6874);
+
+            
+        
+    
+            var circle_marker_8a879f282a72418bb3492311ae8f7b5b = L.circleMarker(
+                [39.3749008,-119.7210007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_670903ea762547ed8e4e389613a9b852 = L.popup({maxWidth: '300'});
+
+            
+                var html_c857e86f393e4cd0b4f240c5d27515a5 = $('<div id="html_c857e86f393e4cd0b4f240c5d27515a5" style="width: 100.0%; height: 100.0%;">Steamboat Springs, US-Nevada, Pleistocene-Fumarolic, 1415</div>')[0];
+                popup_670903ea762547ed8e4e389613a9b852.setContent(html_c857e86f393e4cd0b4f240c5d27515a5);
+            
+
+            circle_marker_8a879f282a72418bb3492311ae8f7b5b.bindPopup(popup_670903ea762547ed8e4e389613a9b852);
+
+            
+        
+    
+            var circle_marker_50a87eddfb0c4896a54273e470ed3144 = L.circleMarker(
+                [39.6500015,-107.0309982],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_22ee6694964f416d9119f4cb656457e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_13472bfa1a3445089219f10654e4c7d6 = $('<div id="html_13472bfa1a3445089219f10654e4c7d6" style="width: 100.0%; height: 100.0%;">Dotsero, US-Colorado, Radiocarbon, 2230</div>')[0];
+                popup_22ee6694964f416d9119f4cb656457e3.setContent(html_13472bfa1a3445089219f10654e4c7d6);
+            
+
+            circle_marker_50a87eddfb0c4896a54273e470ed3144.bindPopup(popup_22ee6694964f416d9119f4cb656457e3);
+
+            
+        
+    
+            var circle_marker_dce397c04ff24af78752efaed3906906 = L.circleMarker(
+                [37.9999008,-119.0309982],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_5ff61bee22d24f95b0f06e1272c7ff1d = L.popup({maxWidth: '300'});
+
+            
+                var html_f73e7c8ce15a471b82997012fb1c7893 = $('<div id="html_f73e7c8ce15a471b82997012fb1c7893" style="width: 100.0%; height: 100.0%;">Mono Lake Volc Field, US-California, Tephrochronology, 2121</div>')[0];
+                popup_5ff61bee22d24f95b0f06e1272c7ff1d.setContent(html_f73e7c8ce15a471b82997012fb1c7893);
+            
+
+            circle_marker_dce397c04ff24af78752efaed3906906.bindPopup(popup_5ff61bee22d24f95b0f06e1272c7ff1d);
+
+            
+        
+    
+            var circle_marker_0622cdfe674f4f02b3e0dfcf3e1251a1 = L.circleMarker(
+                [38.9700012,-112.5009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_18db10c7f544472d9485c69cc4e800d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_ec2da1c627ff478db1b847e2bade3091 = $('<div id="html_ec2da1c627ff478db1b847e2bade3091" style="width: 100.0%; height: 100.0%;">Black Rock Desert, US-Utah, Radiocarbon, 1800</div>')[0];
+                popup_18db10c7f544472d9485c69cc4e800d5.setContent(html_ec2da1c627ff478db1b847e2bade3091);
+            
+
+            circle_marker_0622cdfe674f4f02b3e0dfcf3e1251a1.bindPopup(popup_18db10c7f544472d9485c69cc4e800d5);
+
+            
+        
+    
+            var circle_marker_75e8004c9b764c7b8234edd80dd82079 = L.circleMarker(
+                [37.8799019,-119.0009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_423cfb51c52b4ba0ba391a075944de3d = L.popup({maxWidth: '300'});
+
+            
+                var html_ee93c4baecbf4ba8bb50056489640509 = $('<div id="html_ee93c4baecbf4ba8bb50056489640509" style="width: 100.0%; height: 100.0%;">Mono Craters, US-California, Radiocarbon, 2796</div>')[0];
+                popup_423cfb51c52b4ba0ba391a075944de3d.setContent(html_ee93c4baecbf4ba8bb50056489640509);
+            
+
+            circle_marker_75e8004c9b764c7b8234edd80dd82079.bindPopup(popup_423cfb51c52b4ba0ba391a075944de3d);
+
+            
+        
+    
+            var circle_marker_347c0012f5cd4df0a9080b574831686f = L.circleMarker(
+                [37.6918983,-119.0210037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_24f449fd7fc5430196139d7bddfbb3fa = L.popup({maxWidth: '300'});
+
+            
+                var html_18c6460c93214fb6b133a9e38293df1e = $('<div id="html_18c6460c93214fb6b133a9e38293df1e" style="width: 100.0%; height: 100.0%;">Inyo Craters, US-California, Radiocarbon, 2629</div>')[0];
+                popup_24f449fd7fc5430196139d7bddfbb3fa.setContent(html_18c6460c93214fb6b133a9e38293df1e);
+            
+
+            circle_marker_347c0012f5cd4df0a9080b574831686f.bindPopup(popup_24f449fd7fc5430196139d7bddfbb3fa);
+
+            
+        
+    
+            var circle_marker_5d2e610c4e8847dab92a4e5cb612cb82 = L.circleMarker(
+                [37.6999016,-118.8710022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_bd08a8d9dddb4cc5911e72ad80a4cab2 = L.popup({maxWidth: '300'});
+
+            
+                var html_17518aece81d412f971e07f4a4acc7a2 = $('<div id="html_17518aece81d412f971e07f4a4acc7a2" style="width: 100.0%; height: 100.0%;">Long Valley, US-California, Pleistocene-Fumarolic, 3390</div>')[0];
+                popup_bd08a8d9dddb4cc5911e72ad80a4cab2.setContent(html_17518aece81d412f971e07f4a4acc7a2);
+            
+
+            circle_marker_5d2e610c4e8847dab92a4e5cb612cb82.bindPopup(popup_bd08a8d9dddb4cc5911e72ad80a4cab2);
+
+            
+        
+    
+            var circle_marker_21db0d16ce724a3db6404264429acf00 = L.circleMarker(
+                [37.5798988,-119.0510025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_531c267978f043e788f7e43d6ab59f3e = L.popup({maxWidth: '300'});
+
+            
+                var html_321770c5238e476cac1261da03a1cda9 = $('<div id="html_321770c5238e476cac1261da03a1cda9" style="width: 100.0%; height: 100.0%;">Red Cones, US-California, Radiocarbon, 2748</div>')[0];
+                popup_531c267978f043e788f7e43d6ab59f3e.setContent(html_321770c5238e476cac1261da03a1cda9);
+            
+
+            circle_marker_21db0d16ce724a3db6404264429acf00.bindPopup(popup_531c267978f043e788f7e43d6ab59f3e);
+
+            
+        
+    
+            var circle_marker_4f00301038c0414abb02bf8bbb2e0d2a = L.circleMarker(
+                [37.0199013,-117.4509964],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_d221033182f241f78a1a315ca31b6b53 = L.popup({maxWidth: '300'});
+
+            
+                var html_faae89f0d1084af7affb871816cefc64 = $('<div id="html_faae89f0d1084af7affb871816cefc64" style="width: 100.0%; height: 100.0%;">Ubehebe Craters, US-California, Anthropology, 752</div>')[0];
+                popup_d221033182f241f78a1a315ca31b6b53.setContent(html_faae89f0d1084af7affb871816cefc64);
+            
+
+            circle_marker_4f00301038c0414abb02bf8bbb2e0d2a.bindPopup(popup_d221033182f241f78a1a315ca31b6b53);
+
+            
+        
+    
+            var circle_marker_1ea16dd9edd04c65846efe28e4fe8b34 = L.circleMarker(
+                [37.5800018,-112.6709976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_c034ff495b594accaa4d9683b8f42b33 = L.popup({maxWidth: '300'});
+
+            
+                var html_6e6dd443ecd84725b0c45de467bd6adb = $('<div id="html_6e6dd443ecd84725b0c45de467bd6adb" style="width: 100.0%; height: 100.0%;">Markagunt Plateau, US-Utah, Dendrochronology, 2840</div>')[0];
+                popup_c034ff495b594accaa4d9683b8f42b33.setContent(html_6e6dd443ecd84725b0c45de467bd6adb);
+            
+
+            circle_marker_1ea16dd9edd04c65846efe28e4fe8b34.bindPopup(popup_c034ff495b594accaa4d9683b8f42b33);
+
+            
+        
+    
+            var circle_marker_544ac61877a84c6fbcee6e7792611fb9 = L.circleMarker(
+                [37.257,-113.6210022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_7411fdc9435a453983fcf18ce2af0faa = L.popup({maxWidth: '300'});
+
+            
+                var html_24b5718b5a244492881369ed4b86a028 = $('<div id="html_24b5718b5a244492881369ed4b86a028" style="width: 100.0%; height: 100.0%;">Santa Clara, US-Utah, Holocene?, 1465</div>')[0];
+                popup_7411fdc9435a453983fcf18ce2af0faa.setContent(html_24b5718b5a244492881369ed4b86a028);
+            
+
+            circle_marker_544ac61877a84c6fbcee6e7792611fb9.bindPopup(popup_7411fdc9435a453983fcf18ce2af0faa);
+
+            
+        
+    
+            var circle_marker_e7946ae3a64c4fabb11de8cfdab6a738 = L.circleMarker(
+                [37.3279991,-112.401001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_275206daecba4f228df6768184f4de11 = L.popup({maxWidth: '300'});
+
+            
+                var html_e386203f144c400e9af325f5d416d824 = $('<div id="html_e386203f144c400e9af325f5d416d824" style="width: 100.0%; height: 100.0%;">Bald Knoll, US-Utah, Holocene, 2135</div>')[0];
+                popup_275206daecba4f228df6768184f4de11.setContent(html_e386203f144c400e9af325f5d416d824);
+            
+
+            circle_marker_e7946ae3a64c4fabb11de8cfdab6a738.bindPopup(popup_275206daecba4f228df6768184f4de11);
+
+            
+        
+    
+            var circle_marker_b3222961600240119820b2b08a87227a = L.circleMarker(
+                [36.3578987,-118.3209991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_b1f3732e93644b3baec55694583bc047 = L.popup({maxWidth: '300'});
+
+            
+                var html_a5ea9fd99c2c4b1db986d57245d66581 = $('<div id="html_a5ea9fd99c2c4b1db986d57245d66581" style="width: 100.0%; height: 100.0%;">Golden Trout Creek, US-California, Tephrochronology, 2886</div>')[0];
+                popup_b1f3732e93644b3baec55694583bc047.setContent(html_a5ea9fd99c2c4b1db986d57245d66581);
+            
+
+            circle_marker_b3222961600240119820b2b08a87227a.bindPopup(popup_b1f3732e93644b3baec55694583bc047);
+
+            
+        
+    
+            var circle_marker_a864801d54cb4f41869f06c592951ad0 = L.circleMarker(
+                [36.0298996,-117.8209991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_4c9298800a7d432289b19c2e134d5a55 = L.popup({maxWidth: '300'});
+
+            
+                var html_5168311eae0149ddabc466f3fd35a48b = $('<div id="html_5168311eae0149ddabc466f3fd35a48b" style="width: 100.0%; height: 100.0%;">Coso Volc Field, US-California, Holocene?, 2400</div>')[0];
+                popup_4c9298800a7d432289b19c2e134d5a55.setContent(html_5168311eae0149ddabc466f3fd35a48b);
+            
+
+            circle_marker_a864801d54cb4f41869f06c592951ad0.bindPopup(popup_4c9298800a7d432289b19c2e134d5a55);
+
+            
+        
+    
+            var circle_marker_aaa96891f4424524904b3565713905bb = L.circleMarker(
+                [36.3800011,-113.1309967],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_f81e89690681476c93d47c6f7d854f26 = L.popup({maxWidth: '300'});
+
+            
+                var html_b09ec20414f04c27bcc3fa62c417b4b4 = $('<div id="html_b09ec20414f04c27bcc3fa62c417b4b4" style="width: 100.0%; height: 100.0%;">Uinkaret Field, US-Arizona, Anthropology, 1555</div>')[0];
+                popup_f81e89690681476c93d47c6f7d854f26.setContent(html_b09ec20414f04c27bcc3fa62c417b4b4);
+            
+
+            circle_marker_aaa96891f4424524904b3565713905bb.bindPopup(popup_f81e89690681476c93d47c6f7d854f26);
+
+            
+        
+    
+            var circle_marker_0d60b7dbb31a4ed88b1b1e3c92b48aaf = L.circleMarker(
+                [34.75,-116.6210022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_92e611757f95476084e6db1a08533378 = L.popup({maxWidth: '300'});
+
+            
+                var html_7e1150496441421ebe8fbf301d69a7de = $('<div id="html_7e1150496441421ebe8fbf301d69a7de" style="width: 100.0%; height: 100.0%;">Lavic Lake, US-California, Holocene?, 1495</div>')[0];
+                popup_92e611757f95476084e6db1a08533378.setContent(html_7e1150496441421ebe8fbf301d69a7de);
+            
+
+            circle_marker_0d60b7dbb31a4ed88b1b1e3c92b48aaf.bindPopup(popup_92e611757f95476084e6db1a08533378);
+
+            
+        
+    
+            var circle_marker_4c2f70603d434ed5bed8f574d9b3b564 = L.circleMarker(
+                [35.8699989,-106.5709991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_020ee244c4b4492a945570ee7d2c32f4 = L.popup({maxWidth: '300'});
+
+            
+                var html_e7568e0d5a354c6eaa9c41b0fac2a0b1 = $('<div id="html_e7568e0d5a354c6eaa9c41b0fac2a0b1" style="width: 100.0%; height: 100.0%;">Valles Caldera, US-New Mexico, Pleistocene-Fumarolic, 3430</div>')[0];
+                popup_020ee244c4b4492a945570ee7d2c32f4.setContent(html_e7568e0d5a354c6eaa9c41b0fac2a0b1);
+            
+
+            circle_marker_4c2f70603d434ed5bed8f574d9b3b564.bindPopup(popup_020ee244c4b4492a945570ee7d2c32f4);
+
+            
+        
+    
+            var circle_marker_06aede27ed764f9d85c20f2ff6a306d0 = L.circleMarker(
+                [35.3699989,-111.5009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_3c78873693a04eb4b1fdfeb9957f0359 = L.popup({maxWidth: '300'});
+
+            
+                var html_ad2800216f9846448795a56785775931 = $('<div id="html_ad2800216f9846448795a56785775931" style="width: 100.0%; height: 100.0%;">Sunset Crater, US-Arizona, Dendrochronology, 2447</div>')[0];
+                popup_3c78873693a04eb4b1fdfeb9957f0359.setContent(html_ad2800216f9846448795a56785775931);
+            
+
+            circle_marker_06aede27ed764f9d85c20f2ff6a306d0.bindPopup(popup_3c78873693a04eb4b1fdfeb9957f0359);
+
+            
+        
+    
+            var circle_marker_28b95f1eb1ac4fcba6dc5c133664b607 = L.circleMarker(
+                [34.5499992,-115.7809982],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_7816a14d866644379e74583393d473ae = L.popup({maxWidth: '300'});
+
+            
+                var html_a49d2f19f68a411ebb3d9ee6602be2d9 = $('<div id="html_a49d2f19f68a411ebb3d9ee6602be2d9" style="width: 100.0%; height: 100.0%;">Amboy, US-California, Holocene, 288</div>')[0];
+                popup_7816a14d866644379e74583393d473ae.setContent(html_a49d2f19f68a411ebb3d9ee6602be2d9);
+            
+
+            circle_marker_28b95f1eb1ac4fcba6dc5c133664b607.bindPopup(popup_7816a14d866644379e74583393d473ae);
+
+            
+        
+    
+            var circle_marker_5e39e18327a94a3cbaaa245e93b99722 = L.circleMarker(
+                [34.7999992,-108.0009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_593f1d01611e490999a184a9e51e8963 = L.popup({maxWidth: '300'});
+
+            
+                var html_f6efbd99c4eb4e8f933d073ef9372713 = $('<div id="html_f6efbd99c4eb4e8f933d073ef9372713" style="width: 100.0%; height: 100.0%;">Zuni-Bandera, US-New Mexico, Anthropology, 2550</div>')[0];
+                popup_593f1d01611e490999a184a9e51e8963.setContent(html_f6efbd99c4eb4e8f933d073ef9372713);
+            
+
+            circle_marker_5e39e18327a94a3cbaaa245e93b99722.bindPopup(popup_593f1d01611e490999a184a9e51e8963);
+
+            
+        
+    
+            var circle_marker_a6b7bf3af7ed403ea6aa8d77dfcb58a2 = L.circleMarker(
+                [33.7801018,-105.9309998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_5e7d35796cae410f97185e2a95843e3c);
+            
+    
+            var popup_ad3b825269d3431d8cb49d6593a35474 = L.popup({maxWidth: '300'});
+
+            
+                var html_c018f187ee67470ea16f15a573da1fdd = $('<div id="html_c018f187ee67470ea16f15a573da1fdd" style="width: 100.0%; height: 100.0%;">Carrizozo, US-New Mexico, Holocene, 1731</div>')[0];
+                popup_ad3b825269d3431d8cb49d6593a35474.setContent(html_c018f187ee67470ea16f15a573da1fdd);
+            
+
+            circle_marker_a6b7bf3af7ed403ea6aa8d77dfcb58a2.bindPopup(popup_ad3b825269d3431d8cb49d6593a35474);
+
+            
+        
+</script>
